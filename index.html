@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalshi team control room</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0B1420;--sf:#122033;--ln:#1F3350;--tx:#DCE6F2;--mu:#7F93AD;--yes:#2EE6C9;--no:#FF4F8B;--wn:#FFC857}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15px;line-height:1.45}
+.w{max-width:1000px;margin:0 auto;padding:16px 14px 40px}
+h1,h2{font-family:"Chakra Petch",system-ui,sans-serif;font-weight:600;margin:0}h1{font-size:22px}h2{font-size:17px;margin-bottom:8px}
+.mu{color:var(--mu);font-size:13px}.pos{color:var(--yes)}.neg{color:var(--no)}.wn{color:var(--wn)}
+.st{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--ln);border:1px solid var(--ln);border-radius:12px;overflow:hidden;margin:14px 0}
+.st div{background:var(--sf);padding:11px 13px}.k{font-size:12.5px;color:var(--mu)}.v{font-family:"Chakra Petch",sans-serif;font-size:22px;font-weight:600}
+.g{display:grid;gap:14px}.p{background:var(--sf);border:1px solid var(--ln);border-radius:12px;padding:14px}
+.row{padding:10px 0;border-top:1px solid var(--ln);font-size:14px}.row:first-of-type{border-top:0}
+.tape{position:relative;height:26px;margin:7px 0;border-radius:6px;border:1px solid var(--ln);background:linear-gradient(90deg,rgba(255,79,139,.16),transparent 50%,rgba(46,230,201,.16))}
+.mk{position:absolute;top:3px;width:3px;height:18px;background:var(--tx);border-radius:2px;margin-left:-1.5px}
+.fr{position:absolute;top:5px;width:14px;height:14px;border-radius:50%;border:2px solid var(--yes);background:var(--sf);margin-left:-7px}
+.lg div{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--ln);font-size:13.5px}
+.tag{font-size:11.5px;border:1px solid var(--ln);border-radius:999px;padding:0 7px;color:var(--mu);margin-right:6px}
+.banner{border-radius:10px;padding:10px 12px;font-size:14px;margin-top:10px;border:1px solid var(--ln);background:var(--sf)}
+.banner.bad{border-color:var(--no);color:var(--no)}
+canvas{width:100%;height:170px;display:block}
+
+.desk{display:grid;gap:12px}
+.g>*,.desk>*{min-width:0}
+.st>div:last-child{grid-column:span 2}
+.pipe{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.step{flex:0 0 auto;border:1px solid var(--ln);border-radius:8px;padding:6px 9px;font-size:12.5px;background:var(--bg)}
+.step b{display:block;font-weight:600;color:var(--tx)}.step span{color:var(--mu)}
+.step.ok{border-color:rgba(46,230,201,.5)}.step.off{opacity:.55}
+.doc{background:var(--bg);border:1px solid var(--ln);border-radius:10px;padding:12px;max-height:340px;overflow:auto;font-size:14px;line-height:1.6}
+.doc p{margin:0 0 10px}
+mark{background:transparent;color:inherit;border-radius:3px;padding:0 2px;border-bottom:2px solid var(--c);box-shadow:inset 0 -10px 0 color-mix(in srgb,var(--c) 22%,transparent)}
+mark.dim{opacity:.35}
+.dim-text .doc p{color:var(--mu)}
+.topics button{display:flex;width:100%;justify-content:space-between;align-items:center;gap:8px;background:transparent;border:0;border-top:1px solid var(--ln);color:var(--tx);padding:9px 2px;font:inherit;font-size:14px;cursor:pointer;text-align:left}
+.topics button:first-child{border-top:0}
+.topics button[aria-pressed="true"]{color:var(--yes)}
+.topics button:focus-visible,.clr:focus-visible{outline:2px solid var(--yes);outline-offset:2px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--c);margin-right:8px}
+.lean{display:flex;gap:3px;min-width:70px;justify-content:flex-end}
+.lean i{display:block;height:8px;border-radius:2px}
+.gauge{position:relative;height:30px;border-radius:6px;border:1px solid var(--ln);background:linear-gradient(90deg,rgba(122,167,255,.25),transparent 50%,rgba(255,138,76,.25));margin:6px 0 2px}
+.gauge .z{position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--ln)}
+.gauge .n{position:absolute;top:4px;width:4px;height:20px;border-radius:2px;background:var(--tx);margin-left:-2px}
+.gl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mu)}
+.clr{background:transparent;border:1px solid var(--ln);color:var(--mu);border-radius:6px;font:inherit;font-size:12.5px;padding:3px 8px;cursor:pointer}
+@media(min-width:720px){.desk{grid-template-columns:1.6fr 1fr}}
+@media(min-width:720px){.st>div:last-child{grid-column:auto}.st{grid-template-columns:repeat(5,1fr)}.g{grid-template-columns:1.3fr 1fr}.full{grid-column:1/-1}}
+</style>
+</head>
+<body>
+<div class="w">
+<h1>Kalshi team control room</h1>
+<div class="mu"><span class="wn">Paper mode.</span> News agent + betting agent + risk referee, running every 30 minutes on GitHub.</div>
+<div id="status" class="banner">Loading…</div>
+<div class="st">
+<div><div class="k">Paper bankroll</div><div class="v" id="bank">–</div></div>
+<div><div class="k">Settled P&amp;L</div><div class="v" id="pnl">–</div></div>
+<div><div class="k">Win rate</div><div class="v" id="wr">–</div><div class="mu" id="wrs"></div></div>
+<div><div class="k">Model edge</div><div class="v" id="me">–</div><div class="mu">expected per contract</div></div>
+<div><div class="k">Realized edge</div><div class="v" id="re">–</div><div class="mu">actual per contract</div></div>
+</div>
+<div class="g">
+<section class="p full"><h2>News desk</h2>
+<div class="pipe" id="pipe"></div>
+<div id="news" class="mu" style="margin:8px 0 12px">–</div>
+<div class="desk">
+<div><div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:6px"><span class="mu" id="docmeta">NWS Phoenix forecast discussion</span><button class="clr" id="clr" hidden>Show all phrases</button></div><div class="doc" id="doc"><p class="mu">The forecast discussion appears here once the news agent is on.</p></div></div>
+<div><div class="mu" style="margin-bottom:4px">Topics the agent tagged. Tap one to focus it.</div><div class="topics" id="topics"></div>
+<div id="gauges" style="margin-top:12px"></div>
+<div class="mu" style="margin-top:12px">Forecast shift for tomorrow, each read</div><canvas id="hist" style="height:80px"></canvas></div>
+</div></section>
+<section class="p full"><h2>Edge board</h2><div class="mu">Bar = YES price. Circle = model chance after the news agent's adjustment.</div><div id="board"></div></section>
+<section class="p"><h2>Paper bankroll over time</h2><canvas id="eq"></canvas></section>
+<section class="p"><h2>Open paper trades</h2><div id="open"></div></section>
+<section class="p full lg"><h2>Activity</h2><div id="log"></div></section>
+</div>
+</div>
+<script>
+function $(id){return document.getElementById(id)}
+function esc(t){var d=document.createElement("div");d.textContent=t==null?"":String(t);return d.innerHTML}
+function ago(s){if(!s)return"never";var m=Math.round((Date.now()-Date.parse(s))/60000);return m<1?"just now":m<60?m+" min ago":Math.round(m/60)+" h ago"}
+function money(x,sign){return(x<0?"-":sign&&x>0?"+":"")+"$"+Math.abs(x).toFixed(2)}
+function draw(eq){
+var c=$("eq"),dpr=window.devicePixelRatio||1,w=c.clientWidth,h=c.clientHeight;c.width=w*dpr;c.height=h*dpr;var x=c.getContext("2d");x.scale(dpr,dpr);
+if(!eq||eq.length<2){x.fillStyle="#7F93AD";x.font="13px sans-serif";x.fillText("Chart appears after a few runs",8,24);return}
+var v=eq.map(function(e){return e.v}),mn=Math.min.apply(null,v.concat(995)),mx=Math.max.apply(null,v.concat(1005));
+x.strokeStyle=v[v.length-1]>=1000?"#2EE6C9":"#FF4F8B";x.lineWidth=2;x.beginPath();
+v.forEach(function(y,i){var px=6+i/(v.length-1)*(w-12),py=h-16-(y-mn)/(mx-mn)*(h-32);i?x.lineTo(px,py):x.moveTo(px,py)});x.stroke();
+}
+
+var TOPIC={storms:"#7AA7FF",heat:"#FF8A4C",clouds:"#A9B8CC",wind:"#B39DFF",smoke:"#C9A26B",models:"#2EE6C9",uncertainty:"#FFC857"};
+var LEAN={cooler:"#7AA7FF",warmer:"#FF8A4C",uncertain:"#FFC857"};
+var focus=null,lastState=null;
+function markDoc(doc,hl){
+var low=doc.toLowerCase(),hits=[];
+hl.forEach(function(h,idx){var q=h.quote.toLowerCase(),at=low.indexOf(q);while(at!==-1){hits.push({a:at,b:at+q.length,h:h});at=low.indexOf(q,at+q.length)}});
+hits.sort(function(x,y){return x.a-y.a});
+var out="",pos=0;
+hits.forEach(function(k){if(k.a<pos)return;out+=esc(doc.slice(pos,k.a));var dim=focus&&k.h.topic!==focus?" dim":"";
+out+='<mark class="'+dim+'" style="--c:'+TOPIC[k.h.topic]+'" title="'+esc(k.h.topic+", leans "+k.h.lean)+'">'+esc(doc.slice(k.a,k.b))+'</mark>';pos=k.b});
+out+=esc(doc.slice(pos));
+return out.split("\n\n").map(function(p){return "<p>"+p+"</p>"}).join("");
+}
+function renderDesk(s){
+var n=s.news||{},hl=n.highlights||[],on=!!n.doc;
+var steps=[["Fetch","NWS discussion",!!n.source],["Clean","headers removed",on],["AI read","Claude Haiku",on],["Tag",hl.length+" phrases",hl.length>0],["Check",(n.dropped||0)+" made-up dropped",on],["Adjust","±3°F cap",Object.keys(n.days||{}).length>0],["Referee","rules",true],["Bet","paper",true]];
+$("pipe").innerHTML=steps.map(function(x){return '<div class="step '+(x[2]?"ok":"off")+'"><b>'+x[0]+'</b><span>'+esc(x[1])+'</span></div>'}).join("");
+$("docmeta").textContent=on?"NWS Phoenix forecast discussion, read "+ago(n.ran_at):"NWS Phoenix forecast discussion";
+if(on)$("doc").innerHTML=markDoc(n.doc,hl);
+var groups={};hl.forEach(function(h){(groups[h.topic]=groups[h.topic]||[]).push(h)});
+var keys=Object.keys(groups).sort(function(a,b){return groups[b].length-groups[a].length});
+$("topics").innerHTML=keys.length?keys.map(function(t){var g=groups[t];
+var bars=g.map(function(h){return '<i style="width:10px;background:'+LEAN[h.lean]+'"></i>'}).join("");
+return '<button data-t="'+t+'" aria-pressed="'+(focus===t)+'"><span><span class="sw" style="--c:'+TOPIC[t]+'"></span>'+t+' <span class="mu">'+g.length+'</span></span><span class="lean" title="Blue cooler, orange warmer, yellow unsure">'+bars+'</span></button>'}).join(""):'<div class="mu" style="padding:8px 0">No tagged phrases yet.</div>';
+$("clr").hidden=!focus;
+Array.prototype.forEach.call($("topics").querySelectorAll("button"),function(b){b.onclick=function(){focus=focus===b.dataset.t?null:b.dataset.t;renderDesk(lastState)}});
+$("gauges").innerHTML=Object.keys(n.days||{}).map(function(d){var a=n.days[d],left=50+a.bias_f/3*50;
+return '<div class="mu">'+esc(d)+': '+(a.bias_f>0?"+":"")+a.bias_f.toFixed(1)+'°F vs raw models</div><div class="gauge"><div class="z"></div><div class="n" style="left:'+left+'%"></div></div><div class="gl"><span>3° cooler</span><span>3° warmer</span></div>'}).join("");
+var c=$("hist"),dpr=window.devicePixelRatio||1,w=c.clientWidth,h=c.clientHeight;c.width=w*dpr;c.height=h*dpr;var x=c.getContext("2d");x.scale(dpr,dpr);
+var pts=(s.news_history||[]).map(function(r){var ks=Object.keys(r.days||{});return ks.length?r.days[ks[0]]:null}).filter(function(v){return v!==null});
+x.strokeStyle="#1F3350";x.beginPath();x.moveTo(0,h/2);x.lineTo(w,h/2);x.stroke();
+if(pts.length<2){x.fillStyle="#7F93AD";x.font="12px sans-serif";x.fillText("Needs a few reads",4,14);return}
+x.strokeStyle="#DCE6F2";x.lineWidth=2;x.beginPath();pts.forEach(function(v,i){var px=4+i/(pts.length-1)*(w-8),py=h/2-v/3*(h/2-6);i?x.lineTo(px,py):x.moveTo(px,py)});x.stroke();
+}
+function render(s){
+lastState=s;renderDesk(s);
+var closed=s.closed||[],pnl=s.bank-1000;
+var bad=/error|Paused/i.test(s.status||"");
+$("status").className="banner"+(bad?" bad":"");
+$("status").textContent=(s.status||"")+". Last run "+ago(s.last_run)+".";
+$("bank").textContent="$"+s.bank.toFixed(2);
+$("pnl").textContent=money(pnl,true);$("pnl").className="v "+(pnl>=0?"pos":"neg");
+var wins=closed.filter(function(c){return c.won}).length;
+$("wr").textContent=closed.length?Math.round(wins/closed.length*100)+"%":"–";$("wrs").textContent=closed.length+" settled";
+if(closed.length){
+var me=closed.reduce(function(a,c){return a+c.edge},0)/closed.length*100;
+var re=closed.reduce(function(a,c){return a+(c.won?1:0)-c.cost-c.fee},0)/closed.length*100;
+$("me").textContent="+"+me.toFixed(1)+"¢";$("re").textContent=(re>=0?"+":"")+re.toFixed(1)+"¢";$("re").className="v "+(re>=0?"pos":"neg");
+}
+var n=s.news;
+if(n){var h='<div style="color:var(--tx)">'+esc(n.summary)+'</div><div class="mu" style="margin-top:6px">Read '+ago(n.ran_at)+(n.pause_trading?' <span class="neg">Flagged unusual weather, trading paused</span>':'')+'</div>';
+Object.keys(n.days||{}).forEach(function(d){var a=n.days[d];h+='<div class="mu" style="margin-top:4px">'+esc(d)+': uncertainty ±'+a.spread_f.toFixed(1)+'°F. '+esc(a.reason)+'</div>'});
+(n.alerts||[]).forEach(function(al){h+='<div class="row wn">'+esc(al)+'</div>'});
+$("news").innerHTML=h}
+var b=(s.board||[]).map(function(r){var best=Math.max(r.ey,r.en),side=r.ey>=r.en?"YES":"NO";
+return '<div class="row"><b>'+esc(r.label)+'</b>'+(r.held?' <span class="wn">(holding)</span>':'')+
+'<div class="tape"><div class="mk" style="left:'+(r.ya*100)+'%"></div><div class="fr" style="left:'+(r.p*100)+'%"></div></div>'+
+'<span class="mu">YES '+Math.round(r.ya*100)+'¢, NO '+Math.round(r.na*100)+'¢, model '+Math.round(r.p*100)+'%</span> <span class="'+(best>=0.08?"pos":"mu")+'">best '+side+' '+(best*100>=0?"+":"")+(best*100).toFixed(1)+'¢</span></div>'}).join("");
+$("board").innerHTML=b||'<div class="row mu">No tradable markets for tomorrow or later right now.</div>';
+$("open").innerHTML=(s.open||[]).map(function(p){return '<div class="row">'+p.qty+' '+esc(p.side)+' at '+Math.round(p.cost*100)+'¢<br><span class="mu">'+esc(p.label)+', edge '+(p.edge*100).toFixed(1)+'¢</span></div>'}).join("")||'<div class="row mu">None yet.</div>';
+$("log").innerHTML=(s.log||[]).slice(0,25).map(function(l){return '<div><span><span class="tag">'+esc(l.agent)+'</span><span class="mu">'+ago(l.t)+'</span><br>'+esc(l.text)+'</span><span class="'+esc(l.cls)+'">'+esc(l.amt)+'</span></div>'}).join("")||'<div class="mu">Waiting for the first run.</div>';
+draw(s.equity);
+}
+function load(){fetch("state.json?t="+Date.now()).then(function(r){if(!r.ok)throw new Error("No state.json yet");return r.json()}).then(render).catch(function(e){$("status").className="banner bad";$("status").textContent="Waiting for the bot's first run. Open Actions on GitHub and run the workflow once."})}
+$("clr").onclick=function(){focus=null;renderDesk(lastState)};
+load();setInterval(load,60000);
+</script>
+</body>
+</html>
