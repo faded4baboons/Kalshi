@@ -125,10 +125,14 @@
   {
    "t": "2026-09-18T08:51:02Z",
    "v": 1000.0
+  },
+  {
+   "t": "2026-09-18T13:27:49Z",
+   "v": 1000.0
   }
  ],
  "news": {
-  "ran_at": "2026-09-18T08:51:00Z",
+  "ran_at": "2026-09-18T13:27:48Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -136,5 +140,5 @@
  },
  "board": [],
  "status": "Running normally",
- "last_run": "2026-09-18T08:51:02Z"
+ "last_run": "2026-09-18T13:27:49Z"
 }
