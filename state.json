@@ -65,10 +65,70 @@
    "bias": 0.0,
    "spread": 2.0,
    "opened_at": "2026-09-17T23:36:56Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP19-T99",
+   "label": "Sat Sep 19: 98\u00b0 or below",
+   "side": "YES",
+   "cost": 0.02,
+   "fee": 0.0013720000000000002,
+   "qty": 10,
+   "model_p": 0.4259794491289406,
+   "edge": 0.4046074491289406,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-18T17:09:51Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP19-B99.5",
+   "label": "Sat Sep 19: 99\u00b0 to 100\u00b0",
+   "side": "YES",
+   "cost": 0.03,
+   "fee": 0.002037,
+   "qty": 10,
+   "model_p": 0.32148822332447335,
+   "edge": 0.2894512233244733,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-18T17:09:51Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP19-B105.5",
+   "label": "Sat Sep 19: 105\u00b0 to 106\u00b0",
+   "side": "NO",
+   "cost": 0.89,
+   "fee": 0.006853,
+   "qty": 10,
+   "model_p": 0.01,
+   "edge": 0.09314699999999998,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-18T17:09:51Z"
   }
  ],
  "closed": [],
  "log": [
+  {
+   "t": "2026-09-18T17:09:51Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 NO at 89\u00a2, Sat Sep 19: 105\u00b0 to 106\u00b0 (edge +9.3\u00a2)",
+   "amt": "-$8.90",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-09-18T17:09:51Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 3\u00a2, Sat Sep 19: 99\u00b0 to 100\u00b0 (edge +28.9\u00a2)",
+   "amt": "-$0.30",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-09-18T17:09:51Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 2\u00a2, Sat Sep 19: 98\u00b0 or below (edge +40.5\u00a2)",
+   "amt": "-$0.20",
+   "cls": "pos"
+  },
   {
    "t": "2026-09-17T23:36:56Z",
    "agent": "Betting",
@@ -129,16 +189,87 @@
   {
    "t": "2026-09-18T13:27:49Z",
    "v": 1000.0
+  },
+  {
+   "t": "2026-09-18T17:09:51Z",
+   "v": 1000.0
   }
  ],
  "news": {
-  "ran_at": "2026-09-18T13:27:48Z",
+  "ran_at": "2026-09-18T17:09:50Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
   "source": null
  },
- "board": [],
+ "board": [
+  {
+   "label": "Sat Sep 19: 103\u00b0 to 104\u00b0",
+   "p": 0.0551,
+   "ya": 0.59,
+   "na": 0.44,
+   "ey": -0.5518,
+   "en": 0.4877,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sat Sep 19: 98\u00b0 or below",
+   "p": 0.426,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": 0.4046,
+   "en": -0.4167,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sat Sep 19: 99\u00b0 to 100\u00b0",
+   "p": 0.3215,
+   "ya": 0.03,
+   "na": 0.98,
+   "ey": 0.2895,
+   "en": -0.3029,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sat Sep 19: 105\u00b0 to 106\u00b0",
+   "p": 0.01,
+   "ya": 0.16,
+   "na": 0.89,
+   "ey": -0.1594,
+   "en": 0.0931,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sat Sep 19: 101\u00b0 to 102\u00b0",
+   "p": 0.1895,
+   "ya": 0.28,
+   "na": 0.73,
+   "ey": -0.1047,
+   "en": 0.0667,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sat Sep 19: 107\u00b0 or above",
+   "p": 0.01,
+   "ya": 0.01,
+   "na": 1.0,
+   "ey": -0.0007,
+   "en": -0.01,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  }
+ ],
  "status": "Running normally",
- "last_run": "2026-09-18T13:27:49Z"
+ "last_run": "2026-09-18T17:09:51Z"
 }
