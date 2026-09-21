@@ -104,6 +104,19 @@
    "bias": 0.0,
    "spread": 2.0,
    "opened_at": "2026-09-21T16:58:19Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP22-B100.5",
+   "label": "Tue Sep 22: 100\u00b0 to 101\u00b0",
+   "side": "NO",
+   "cost": 0.51,
+   "fee": 0.017493,
+   "qty": 10,
+   "model_p": 0.036741975361773045,
+   "edge": 0.43576502463822697,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-21T20:57:00Z"
   }
  ],
  "closed": [
@@ -347,6 +360,13 @@
   }
  ],
  "log": [
+  {
+   "t": "2026-09-21T20:57:00Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 NO at 51\u00a2, Tue Sep 22: 100\u00b0 to 101\u00b0 (edge +43.6\u00a2)",
+   "amt": "-$5.10",
+   "cls": "neg"
+  },
   {
    "t": "2026-09-21T16:58:19Z",
    "agent": "Betting",
@@ -708,10 +728,14 @@
   {
    "t": "2026-09-21T16:58:19Z",
    "v": 994.58
+  },
+  {
+   "t": "2026-09-21T20:57:00Z",
+   "v": 994.58
   }
  ],
  "news": {
-  "ran_at": "2026-09-21T16:58:18Z",
+  "ran_at": "2026-09-21T20:56:59Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -725,17 +749,17 @@
    "na": 1.0,
    "ey": 0.5124,
    "en": -0.5337,
-   "held": false,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Tue Sep 22: 100\u00b0 to 101\u00b0",
    "p": 0.0367,
-   "ya": 0.45,
-   "na": 0.6,
-   "ey": -0.4306,
-   "en": 0.3465,
+   "ya": 0.5,
+   "na": 0.51,
+   "ey": -0.4808,
+   "en": 0.4358,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -743,32 +767,32 @@
   {
    "label": "Tue Sep 22: 96\u00b0 to 97\u00b0",
    "p": 0.2847,
-   "ya": 0.04,
-   "na": 0.97,
-   "ey": 0.242,
-   "en": -0.2567,
-   "held": false,
+   "ya": 0.03,
+   "na": 0.99,
+   "ey": 0.2527,
+   "en": -0.2754,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Tue Sep 22: 102\u00b0 to 103\u00b0",
    "p": 0.01,
-   "ya": 0.34,
+   "ya": 0.28,
    "na": 0.74,
-   "ey": -0.3457,
+   "ey": -0.2841,
    "en": 0.2365,
-   "held": false,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Tue Sep 22: 98\u00b0 to 99\u00b0",
    "p": 0.1392,
-   "ya": 0.24,
-   "na": 0.8,
-   "ey": -0.1136,
-   "en": 0.0496,
+   "ya": 0.22,
+   "na": 0.84,
+   "ey": -0.0928,
+   "en": 0.0114,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -786,5 +810,5 @@
   }
  ],
  "status": "Running normally",
- "last_run": "2026-09-21T16:58:19Z"
+ "last_run": "2026-09-21T20:57:00Z"
 }
