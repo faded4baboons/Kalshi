@@ -1035,10 +1035,14 @@
   {
    "t": "2026-09-23T19:09:34Z",
    "v": 987.7
+  },
+  {
+   "t": "2026-09-23T22:25:20Z",
+   "v": 987.7
   }
  ],
  "news": {
-  "ran_at": "2026-09-23T19:09:33Z",
+  "ran_at": "2026-09-23T22:25:18Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -1048,21 +1052,10 @@
   {
    "label": "Thu Sep 24: 96\u00b0 to 97\u00b0",
    "p": 0.336,
-   "ya": 0.24,
-   "na": 0.77,
-   "ey": 0.0832,
-   "en": -0.1184,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Thu Sep 24: 98\u00b0 to 99\u00b0",
-   "p": 0.2175,
-   "ya": 0.32,
-   "na": 0.7,
-   "ey": -0.1177,
-   "en": 0.0678,
+   "ya": 0.18,
+   "na": 0.83,
+   "ey": 0.1456,
+   "en": -0.1759,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -1070,10 +1063,10 @@
   {
    "label": "Thu Sep 24: 95\u00b0 or below",
    "p": 0.3675,
-   "ya": 0.31,
-   "na": 0.7,
-   "ey": 0.0425,
-   "en": -0.0822,
+   "ya": 0.46,
+   "na": 0.56,
+   "ey": -0.1099,
+   "en": 0.0552,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -1081,10 +1074,21 @@
   {
    "label": "Thu Sep 24: 100\u00b0 to 101\u00b0",
    "p": 0.0679,
-   "ya": 0.12,
-   "na": 0.89,
-   "ey": -0.0595,
-   "en": 0.0352,
+   "ya": 0.13,
+   "na": 0.88,
+   "ey": -0.07,
+   "en": 0.0447,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Thu Sep 24: 102\u00b0 to 103\u00b0",
+   "p": 0.0103,
+   "ya": 0.03,
+   "na": 0.98,
+   "ey": -0.0217,
+   "en": 0.0083,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -1101,17 +1105,17 @@
    "spread": 2.0
   },
   {
-   "label": "Thu Sep 24: 102\u00b0 to 103\u00b0",
-   "p": 0.0103,
-   "ya": 0.02,
-   "na": 0.99,
-   "ey": -0.011,
-   "en": -0.001,
-   "held": false,
+   "label": "Thu Sep 24: 98\u00b0 to 99\u00b0",
+   "p": 0.2175,
+   "ya": 0.22,
+   "na": 0.79,
+   "ey": -0.0145,
+   "en": -0.0191,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-09-23T19:09:34Z"
+ "last_run": "2026-09-23T22:25:20Z"
 }
