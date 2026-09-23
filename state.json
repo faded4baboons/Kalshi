@@ -935,10 +935,14 @@
   {
    "t": "2026-09-23T00:04:17Z",
    "v": 991.15
+  },
+  {
+   "t": "2026-09-23T05:00:11Z",
+   "v": 991.15
   }
  ],
  "news": {
-  "ran_at": "2026-09-22T21:34:13Z",
+  "ran_at": "2026-09-23T05:00:09Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -948,10 +952,10 @@
   {
    "label": "Wed Sep 23: 99\u00b0 to 100\u00b0",
    "p": 0.066,
-   "ya": 0.34,
-   "na": 0.68,
-   "ey": -0.2897,
-   "en": 0.2387,
+   "ya": 0.43,
+   "na": 0.58,
+   "ey": -0.3811,
+   "en": 0.3369,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -960,9 +964,20 @@
    "label": "Wed Sep 23: 93\u00b0 to 94\u00b0",
    "p": 0.2579,
    "ya": 0.03,
-   "na": 0.98,
+   "na": 0.99,
    "ey": 0.2258,
-   "en": -0.2392,
+   "en": -0.2486,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Wed Sep 23: 95\u00b0 to 96\u00b0",
+   "p": 0.3271,
+   "ya": 0.1,
+   "na": 0.91,
+   "ey": 0.2208,
+   "en": -0.2428,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -979,12 +994,12 @@
    "spread": 2.0
   },
   {
-   "label": "Wed Sep 23: 95\u00b0 to 96\u00b0",
-   "p": 0.3271,
-   "ya": 0.16,
-   "na": 0.85,
-   "ey": 0.1577,
-   "en": -0.186,
+   "label": "Wed Sep 23: 92\u00b0 or below",
+   "p": 0.1277,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": 0.1064,
+   "en": -0.1184,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -992,26 +1007,15 @@
   {
    "label": "Wed Sep 23: 97\u00b0 to 98\u00b0",
    "p": 0.2113,
-   "ya": 0.36,
-   "na": 0.65,
-   "ey": -0.1648,
-   "en": 0.1227,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Wed Sep 23: 92\u00b0 or below",
-   "p": 0.1277,
-   "ya": 0.03,
-   "na": 0.98,
-   "ey": 0.0957,
-   "en": -0.1091,
+   "ya": 0.33,
+   "na": 0.68,
+   "ey": -0.1341,
+   "en": 0.0934,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-09-23T00:04:17Z"
+ "last_run": "2026-09-23T05:00:11Z"
 }
