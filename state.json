@@ -1173,10 +1173,14 @@
   {
    "t": "2026-09-24T15:52:52Z",
    "v": 981.3
+  },
+  {
+   "t": "2026-09-24T19:50:49Z",
+   "v": 981.3
   }
  ],
  "news": {
-  "ran_at": "2026-09-24T15:52:50Z",
+  "ran_at": "2026-09-24T19:50:47Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -1185,55 +1189,55 @@
  "board": [
   {
    "label": "Fri Sep 25: 94\u00b0 or below",
-   "p": 0.3095,
+   "p": 0.6111,
    "ya": 0.04,
    "na": 0.97,
-   "ey": 0.2668,
-   "en": -0.2815,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Fri Sep 25: 99\u00b0 to 100\u00b0",
-   "p": 0.0929,
-   "ya": 0.33,
-   "na": 0.68,
-   "ey": -0.2526,
-   "en": 0.2119,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Fri Sep 25: 95\u00b0 to 96\u00b0",
-   "p": 0.332,
-   "ya": 0.14,
-   "na": 0.87,
-   "ey": 0.1836,
-   "en": -0.2099,
-   "held": false,
+   "ey": 0.5684,
+   "en": -0.5831,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Fri Sep 25: 97\u00b0 to 98\u00b0",
-   "p": 0.2457,
-   "ya": 0.47,
-   "na": 0.57,
-   "ey": -0.2418,
-   "en": 0.1672,
+   "p": 0.1047,
+   "ya": 0.45,
+   "na": 0.56,
+   "ey": -0.3626,
+   "en": 0.3181,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Sep 25: 99\u00b0 to 100\u00b0",
+   "p": 0.021,
+   "ya": 0.31,
+   "na": 0.7,
+   "ey": -0.304,
+   "en": 0.2643,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Sep 25: 95\u00b0 to 96\u00b0",
+   "p": 0.261,
+   "ya": 0.2,
+   "na": 0.83,
+   "ey": 0.0498,
+   "en": -0.1009,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Fri Sep 25: 101\u00b0 to 102\u00b0",
-   "p": 0.0181,
-   "ya": 0.1,
-   "na": 0.92,
-   "ey": -0.0882,
-   "en": 0.0568,
+   "p": 0.01,
+   "ya": 0.05,
+   "na": 0.96,
+   "ey": -0.0433,
+   "en": 0.0273,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -1251,5 +1255,5 @@
   }
  ],
  "status": "Running normally",
- "last_run": "2026-09-24T15:52:52Z"
+ "last_run": "2026-09-24T19:50:49Z"
 }
