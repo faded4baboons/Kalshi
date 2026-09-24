@@ -1,84 +1,6 @@
 {
- "bank": 987.7023800000001,
+ "bank": 981.29943,
  "open": [
-  {
-   "ticker": "KXHIGHTPHX-26SEP23-T93",
-   "label": "Wed Sep 23: 92\u00b0 or below",
-   "side": "YES",
-   "cost": 0.03,
-   "fee": 0.002037,
-   "qty": 10,
-   "model_p": 0.21331084842121392,
-   "edge": 0.1812738484212139,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-09-22T14:24:48Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26SEP23-B99.5",
-   "label": "Wed Sep 23: 99\u00b0 to 100\u00b0",
-   "side": "NO",
-   "cost": 0.73,
-   "fee": 0.013797000000000002,
-   "qty": 10,
-   "model_p": 0.05242466507303572,
-   "edge": 0.20377833492696434,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-09-22T14:24:48Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26SEP23-B97.5",
-   "label": "Wed Sep 23: 97\u00b0 to 98\u00b0",
-   "side": "NO",
-   "cost": 0.7,
-   "fee": 0.014700000000000003,
-   "qty": 10,
-   "model_p": 0.17582680407841278,
-   "edge": 0.10947319592158726,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-09-22T14:24:48Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26SEP23-B95.5",
-   "label": "Wed Sep 23: 95\u00b0 to 96\u00b0",
-   "side": "YES",
-   "cost": 0.19,
-   "fee": 0.010773000000000001,
-   "qty": 10,
-   "model_p": 0.2847378067785368,
-   "edge": 0.08396480677853677,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-09-22T18:12:44Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26SEP23-B93.5",
-   "label": "Wed Sep 23: 93\u00b0 to 94\u00b0",
-   "side": "YES",
-   "cost": 0.04,
-   "fee": 0.0026880000000000003,
-   "qty": 10,
-   "model_p": 0.3075838722898498,
-   "edge": 0.2648958722898498,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-09-22T18:12:44Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26SEP23-T100",
-   "label": "Wed Sep 23: 101\u00b0 or above",
-   "side": "NO",
-   "cost": 0.9,
-   "fee": 0.0063,
-   "qty": 10,
-   "model_p": 0.01,
-   "edge": 0.08369999999999997,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-09-22T21:34:14Z"
-  },
   {
    "ticker": "KXHIGHTPHX-26SEP24-B98.5",
    "label": "Thu Sep 24: 98\u00b0 to 99\u00b0",
@@ -117,6 +39,45 @@
    "bias": 0.0,
    "spread": 2.0,
    "opened_at": "2026-09-24T00:44:33Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP25-T95",
+   "label": "Fri Sep 25: 94\u00b0 or below",
+   "side": "YES",
+   "cost": 0.04,
+   "fee": 0.0026880000000000003,
+   "qty": 10,
+   "model_p": 0.30950516872839345,
+   "edge": 0.26681716872839345,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-24T15:52:52Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP25-B99.5",
+   "label": "Fri Sep 25: 99\u00b0 to 100\u00b0",
+   "side": "NO",
+   "cost": 0.68,
+   "fee": 0.015232,
+   "qty": 10,
+   "model_p": 0.09288177188577454,
+   "edge": 0.21188622811422544,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-24T15:52:52Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP25-B97.5",
+   "label": "Fri Sep 25: 97\u00b0 to 98\u00b0",
+   "side": "NO",
+   "cost": 0.57,
+   "fee": 0.017157000000000002,
+   "qty": 10,
+   "model_p": 0.245685217843214,
+   "edge": 0.16715778215678598,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-24T15:52:52Z"
   }
  ],
  "closed": [
@@ -510,9 +471,174 @@
    "pnl": -5.2749299999999995,
    "result": "yes",
    "closed_at": "2026-09-23T15:09:03Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP23-T93",
+   "label": "Wed Sep 23: 92\u00b0 or below",
+   "side": "YES",
+   "cost": 0.03,
+   "fee": 0.002037,
+   "qty": 10,
+   "model_p": 0.21331084842121392,
+   "edge": 0.1812738484212139,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-22T14:24:48Z",
+   "won": false,
+   "pnl": -0.32036999999999993,
+   "result": "no",
+   "closed_at": "2026-09-24T15:52:50Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP23-B99.5",
+   "label": "Wed Sep 23: 99\u00b0 to 100\u00b0",
+   "side": "NO",
+   "cost": 0.73,
+   "fee": 0.013797000000000002,
+   "qty": 10,
+   "model_p": 0.05242466507303572,
+   "edge": 0.20377833492696434,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-22T14:24:48Z",
+   "won": false,
+   "pnl": -7.437969999999999,
+   "result": "yes",
+   "closed_at": "2026-09-24T15:52:50Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP23-B97.5",
+   "label": "Wed Sep 23: 97\u00b0 to 98\u00b0",
+   "side": "NO",
+   "cost": 0.7,
+   "fee": 0.014700000000000003,
+   "qty": 10,
+   "model_p": 0.17582680407841278,
+   "edge": 0.10947319592158726,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-22T14:24:48Z",
+   "won": true,
+   "pnl": 2.8530000000000006,
+   "result": "no",
+   "closed_at": "2026-09-24T15:52:50Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP23-B95.5",
+   "label": "Wed Sep 23: 95\u00b0 to 96\u00b0",
+   "side": "YES",
+   "cost": 0.19,
+   "fee": 0.010773000000000001,
+   "qty": 10,
+   "model_p": 0.2847378067785368,
+   "edge": 0.08396480677853677,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-22T18:12:44Z",
+   "won": false,
+   "pnl": -2.00773,
+   "result": "no",
+   "closed_at": "2026-09-24T15:52:50Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP23-B93.5",
+   "label": "Wed Sep 23: 93\u00b0 to 94\u00b0",
+   "side": "YES",
+   "cost": 0.04,
+   "fee": 0.0026880000000000003,
+   "qty": 10,
+   "model_p": 0.3075838722898498,
+   "edge": 0.2648958722898498,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-22T18:12:44Z",
+   "won": false,
+   "pnl": -0.42688000000000004,
+   "result": "no",
+   "closed_at": "2026-09-24T15:52:51Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26SEP23-T100",
+   "label": "Wed Sep 23: 101\u00b0 or above",
+   "side": "NO",
+   "cost": 0.9,
+   "fee": 0.0063,
+   "qty": 10,
+   "model_p": 0.01,
+   "edge": 0.08369999999999997,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-09-22T21:34:14Z",
+   "won": true,
+   "pnl": 0.9369999999999998,
+   "result": "no",
+   "closed_at": "2026-09-24T15:52:51Z"
   }
  ],
  "log": [
+  {
+   "t": "2026-09-24T15:52:52Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 NO at 57\u00a2, Fri Sep 25: 97\u00b0 to 98\u00b0 (edge +16.7\u00a2)",
+   "amt": "-$5.70",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-09-24T15:52:52Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 NO at 68\u00a2, Fri Sep 25: 99\u00b0 to 100\u00b0 (edge +21.2\u00a2)",
+   "amt": "-$6.80",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-09-24T15:52:52Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 4\u00a2, Fri Sep 25: 94\u00b0 or below (edge +26.7\u00a2)",
+   "amt": "-$0.40",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-09-24T15:52:51Z",
+   "agent": "Betting",
+   "text": "Won NO on Wed Sep 23: 101\u00b0 or above",
+   "amt": "+$0.94",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-09-24T15:52:51Z",
+   "agent": "Betting",
+   "text": "Lost YES on Wed Sep 23: 93\u00b0 to 94\u00b0",
+   "amt": "-$0.43",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-09-24T15:52:50Z",
+   "agent": "Betting",
+   "text": "Lost YES on Wed Sep 23: 95\u00b0 to 96\u00b0",
+   "amt": "-$2.01",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-09-24T15:52:50Z",
+   "agent": "Betting",
+   "text": "Won NO on Wed Sep 23: 97\u00b0 to 98\u00b0",
+   "amt": "+$2.85",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-09-24T15:52:50Z",
+   "agent": "Betting",
+   "text": "Lost NO on Wed Sep 23: 99\u00b0 to 100\u00b0",
+   "amt": "-$7.44",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-09-24T15:52:50Z",
+   "agent": "Betting",
+   "text": "Lost YES on Wed Sep 23: 92\u00b0 or below",
+   "amt": "-$0.32",
+   "cls": "neg"
+  },
   {
    "t": "2026-09-24T00:44:33Z",
    "agent": "Betting",
@@ -869,34 +995,6 @@
    "text": "Paper bought 10 NO at 88\u00a2, Fri Sep 18: 104\u00b0 to 105\u00b0 (edge +9.9\u00a2)",
    "amt": "-$8.80",
    "cls": "neg"
-  },
-  {
-   "t": "2026-09-17T21:01:18Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 NO at 67\u00a2, Fri Sep 18: 100\u00b0 to 101\u00b0 (edge +8.6\u00a2)",
-   "amt": "-$6.70",
-   "cls": "neg"
-  },
-  {
-   "t": "2026-09-17T17:44:35Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 NO at 47\u00a2, Fri Sep 18: 102\u00b0 to 103\u00b0 (edge +43.1\u00a2)",
-   "amt": "-$4.70",
-   "cls": "neg"
-  },
-  {
-   "t": "2026-09-17T17:44:35Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 YES at 8\u00a2, Fri Sep 18: 98\u00b0 to 99\u00b0 (edge +22.6\u00a2)",
-   "amt": "-$0.80",
-   "cls": "pos"
-  },
-  {
-   "t": "2026-09-17T17:44:35Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 YES at 3\u00a2, Fri Sep 18: 97\u00b0 or below (edge +33.3\u00a2)",
-   "amt": "-$0.30",
-   "cls": "pos"
   }
  ],
  "equity": [
@@ -1071,16 +1169,87 @@
   {
    "t": "2026-09-24T11:15:46Z",
    "v": 987.7
+  },
+  {
+   "t": "2026-09-24T15:52:52Z",
+   "v": 981.3
   }
  ],
  "news": {
-  "ran_at": "2026-09-24T11:15:45Z",
+  "ran_at": "2026-09-24T15:52:50Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
   "source": null
  },
- "board": [],
+ "board": [
+  {
+   "label": "Fri Sep 25: 94\u00b0 or below",
+   "p": 0.3095,
+   "ya": 0.04,
+   "na": 0.97,
+   "ey": 0.2668,
+   "en": -0.2815,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Sep 25: 99\u00b0 to 100\u00b0",
+   "p": 0.0929,
+   "ya": 0.33,
+   "na": 0.68,
+   "ey": -0.2526,
+   "en": 0.2119,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Sep 25: 95\u00b0 to 96\u00b0",
+   "p": 0.332,
+   "ya": 0.14,
+   "na": 0.87,
+   "ey": 0.1836,
+   "en": -0.2099,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Sep 25: 97\u00b0 to 98\u00b0",
+   "p": 0.2457,
+   "ya": 0.47,
+   "na": 0.57,
+   "ey": -0.2418,
+   "en": 0.1672,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Sep 25: 101\u00b0 to 102\u00b0",
+   "p": 0.0181,
+   "ya": 0.1,
+   "na": 0.92,
+   "ey": -0.0882,
+   "en": 0.0568,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Sep 25: 103\u00b0 or above",
+   "p": 0.01,
+   "ya": 0.02,
+   "na": 1.0,
+   "ey": -0.0114,
+   "en": -0.01,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  }
+ ],
  "status": "Running normally",
- "last_run": "2026-09-24T11:15:46Z"
+ "last_run": "2026-09-24T15:52:52Z"
 }
