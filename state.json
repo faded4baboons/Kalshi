@@ -1273,83 +1273,20 @@
   {
    "t": "2026-09-26T05:18:15Z",
    "v": 983.53
+  },
+  {
+   "t": "2026-09-26T10:05:13Z",
+   "v": 983.53
   }
  ],
  "news": {
-  "ran_at": "2026-09-26T05:18:14Z",
+  "ran_at": "2026-09-26T10:05:12Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
   "source": null
  },
- "board": [
-  {
-   "label": "Sat Sep 26: 100\u00b0 to 101\u00b0",
-   "p": 0.0538,
-   "ya": 0.58,
-   "na": 0.43,
-   "ey": -0.5433,
-   "en": 0.499,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Sep 26: 95\u00b0 or below",
-   "p": 0.4344,
-   "ya": 0.02,
-   "na": 0.99,
-   "ey": 0.413,
-   "en": -0.4251,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Sep 26: 96\u00b0 to 97\u00b0",
-   "p": 0.3188,
-   "ya": 0.03,
-   "na": 0.98,
-   "ey": 0.2868,
-   "en": -0.3002,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Sep 26: 98\u00b0 to 99\u00b0",
-   "p": 0.1844,
-   "ya": 0.39,
-   "na": 0.62,
-   "ey": -0.2223,
-   "en": 0.1791,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Sep 26: 102\u00b0 to 103\u00b0",
-   "p": 0.01,
-   "ya": 0.06,
-   "na": 0.98,
-   "ey": -0.0539,
-   "en": 0.0086,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Sep 26: 104\u00b0 or above",
-   "p": 0.01,
-   "ya": 0.02,
-   "na": 0.99,
-   "ey": -0.0114,
-   "en": -0.0007,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  }
- ],
+ "board": [],
  "status": "Running normally",
- "last_run": "2026-09-26T05:18:15Z"
+ "last_run": "2026-09-26T10:05:13Z"
 }
