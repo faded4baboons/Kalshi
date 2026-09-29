@@ -1482,10 +1482,14 @@
   {
    "t": "2026-09-28T21:37:08Z",
    "v": 980.77
+  },
+  {
+   "t": "2026-09-29T01:31:24Z",
+   "v": 980.77
   }
  ],
  "news": {
-  "ran_at": "2026-09-28T21:37:07Z",
+  "ran_at": "2026-09-29T01:31:23Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -1494,71 +1498,71 @@
  "board": [
   {
    "label": "Tue Sep 29: 85\u00b0 or above",
-   "p": 0.407,
-   "ya": 0.16,
-   "na": 0.85,
-   "ey": 0.2376,
-   "en": -0.2659,
+   "p": 0.4121,
+   "ya": 0.15,
+   "na": 0.87,
+   "ey": 0.2532,
+   "en": -0.29,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
-   "label": "Tue Sep 29: 81\u00b0 to 82\u00b0",
-   "p": 0.1697,
-   "ya": 0.34,
-   "na": 0.67,
-   "ey": -0.186,
-   "en": 0.1449,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
    "label": "Tue Sep 29: 83\u00b0 to 84\u00b0",
-   "p": 0.2384,
-   "ya": 0.34,
-   "na": 0.67,
-   "ey": -0.1173,
-   "en": 0.0761,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Tue Sep 29: 77\u00b0 to 78\u00b0",
-   "p": 0.0543,
-   "ya": 0.09,
-   "na": 0.92,
-   "ey": -0.0414,
-   "en": 0.0205,
+   "p": 0.2135,
+   "ya": 0.32,
+   "na": 0.7,
+   "ey": -0.1217,
+   "en": 0.0718,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Tue Sep 29: 79\u00b0 to 80\u00b0",
-   "p": 0.0957,
+   "p": 0.0852,
+   "ya": 0.18,
+   "na": 0.84,
+   "ey": -0.1052,
+   "en": 0.0654,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Tue Sep 29: 81\u00b0 to 82\u00b0",
+   "p": 0.1217,
+   "ya": 0.19,
+   "na": 0.82,
+   "ey": -0.0791,
+   "en": 0.048,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Tue Sep 29: 77\u00b0 to 78\u00b0",
+   "p": 0.0835,
    "ya": 0.12,
-   "na": 0.89,
-   "ey": -0.0317,
-   "en": 0.0075,
+   "na": 0.9,
+   "ey": -0.0439,
+   "en": 0.0102,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Tue Sep 29: 76\u00b0 or below",
-   "p": 0.0349,
-   "ya": 0.03,
-   "na": 0.98,
-   "ey": 0.0029,
-   "en": -0.0163,
+   "p": 0.084,
+   "ya": 0.07,
+   "na": 0.94,
+   "ey": 0.0095,
+   "en": -0.028,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-09-28T21:37:08Z"
+ "last_run": "2026-09-29T01:31:24Z"
 }
