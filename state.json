@@ -1641,10 +1641,14 @@
   {
    "t": "2026-10-01T00:24:09Z",
    "v": 974.61
+  },
+  {
+   "t": "2026-10-01T06:22:46Z",
+   "v": 974.61
   }
  ],
  "news": {
-  "ran_at": "2026-10-01T00:24:08Z",
+  "ran_at": "2026-10-01T06:22:45Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -1653,55 +1657,44 @@
  "board": [
   {
    "label": "Thu Oct 01: 93\u00b0 or above",
-   "p": 0.4075,
+   "p": 0.3591,
    "ya": 0.8,
    "na": 0.21,
-   "ey": -0.4037,
-   "en": 0.3709,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Thu Oct 01: 89\u00b0 to 90\u00b0",
-   "p": 0.1922,
-   "ya": 0.05,
-   "na": 0.96,
-   "ey": 0.1389,
-   "en": -0.1549,
+   "ey": -0.4521,
+   "en": 0.4193,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Thu Oct 01: 91\u00b0 to 92\u00b0",
-   "p": 0.2815,
-   "ya": 0.15,
-   "na": 0.86,
-   "ey": 0.1226,
-   "en": -0.1499,
-   "held": false,
+   "p": 0.3259,
+   "ya": 0.14,
+   "na": 0.87,
+   "ey": 0.1775,
+   "en": -0.2039,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Thu Oct 01: 89\u00b0 to 90\u00b0",
+   "p": 0.2115,
+   "ya": 0.04,
+   "na": 0.97,
+   "ey": 0.1688,
+   "en": -0.1836,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Thu Oct 01: 87\u00b0 to 88\u00b0",
-   "p": 0.0883,
-   "ya": 0.03,
-   "na": 0.98,
-   "ey": 0.0563,
-   "en": -0.0697,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Thu Oct 01: 85\u00b0 to 86\u00b0",
-   "p": 0.0261,
+   "p": 0.0787,
    "ya": 0.02,
    "na": 0.99,
-   "ey": 0.0047,
-   "en": -0.0167,
+   "ey": 0.0573,
+   "en": -0.0694,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -1709,15 +1702,26 @@
   {
    "label": "Thu Oct 01: 84\u00b0 or below",
    "p": 0.01,
-   "ya": 0.02,
+   "ya": 0.01,
    "na": 1.0,
-   "ey": -0.0114,
+   "ey": -0.0007,
    "en": -0.01,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Thu Oct 01: 85\u00b0 to 86\u00b0",
+   "p": 0.0206,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": -0.0008,
+   "en": -0.0113,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-01T00:24:09Z"
+ "last_run": "2026-10-01T06:22:46Z"
 }
