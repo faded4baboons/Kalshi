@@ -2052,83 +2052,20 @@
   {
    "t": "2026-10-05T15:08:07Z",
    "v": 946.97
+  },
+  {
+   "t": "2026-10-05T22:08:24Z",
+   "v": 946.97
   }
  ],
  "news": {
-  "ran_at": "2026-10-05T15:08:06Z",
+  "ran_at": "2026-10-05T22:07:52Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
   "source": null
  },
- "board": [
-  {
-   "label": "Tue Oct 06: 96\u00b0 or below",
-   "p": 0.7598,
-   "ya": 0.01,
-   "na": 1.0,
-   "ey": 0.7491,
-   "en": -0.7598,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Tue Oct 06: 101\u00b0 to 102\u00b0",
-   "p": 0.01,
-   "ya": 0.43,
-   "na": 0.6,
-   "ey": -0.4372,
-   "en": 0.3732,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Tue Oct 06: 99\u00b0 to 100\u00b0",
-   "p": 0.0569,
-   "ya": 0.46,
-   "na": 0.57,
-   "ey": -0.4205,
-   "en": 0.356,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Tue Oct 06: 97\u00b0 to 98\u00b0",
-   "p": 0.1742,
-   "ya": 0.08,
-   "na": 0.93,
-   "ey": 0.089,
-   "en": -0.1087,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Tue Oct 06: 103\u00b0 to 104\u00b0",
-   "p": 0.01,
-   "ya": 0.05,
-   "na": 0.96,
-   "ey": -0.0433,
-   "en": 0.0273,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Tue Oct 06: 105\u00b0 or above",
-   "p": 0.01,
-   "ya": 0.01,
-   "na": 1.0,
-   "ey": -0.0007,
-   "en": -0.01,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  }
- ],
- "status": "Running normally",
- "last_run": "2026-10-05T15:08:07Z"
+ "board": [],
+ "status": "Market scan error: HTTPSConnectionPool(host='ensemble-api.open-meteo.com', port=443): Read timed out. (read timeout=30)",
+ "last_run": "2026-10-05T22:08:24Z"
 }
