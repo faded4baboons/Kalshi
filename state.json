@@ -1989,10 +1989,14 @@
   {
    "t": "2026-10-05T00:29:15Z",
    "v": 952.21
+  },
+  {
+   "t": "2026-10-05T06:07:35Z",
+   "v": 952.21
   }
  ],
  "news": {
-  "ran_at": "2026-10-04T21:46:39Z",
+  "ran_at": "2026-10-05T06:07:34Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -2001,33 +2005,33 @@
  "board": [
   {
    "label": "Mon Oct 05: 99\u00b0 to 100\u00b0",
-   "p": 0.0533,
+   "p": 0.0514,
    "ya": 0.66,
-   "na": 0.36,
-   "ey": -0.6224,
-   "en": 0.5706,
+   "na": 0.35,
+   "ey": -0.6243,
+   "en": 0.5826,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Oct 05: 94\u00b0 or below",
-   "p": 0.403,
+   "p": 0.3912,
    "ya": 0.01,
    "na": 1.0,
-   "ey": 0.3923,
-   "en": -0.403,
+   "ey": 0.3805,
+   "en": -0.3912,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Oct 05: 95\u00b0 to 96\u00b0",
-   "p": 0.3389,
+   "p": 0.3497,
    "ya": 0.03,
    "na": 0.98,
-   "ey": 0.3069,
-   "en": -0.3203,
+   "ey": 0.3177,
+   "en": -0.3311,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -2035,21 +2039,21 @@
   {
    "label": "Mon Oct 05: 101\u00b0 to 102\u00b0",
    "p": 0.01,
-   "ya": 0.18,
-   "na": 0.83,
-   "ey": -0.1803,
-   "en": 0.1501,
+   "ya": 0.17,
+   "na": 0.84,
+   "ey": -0.1699,
+   "en": 0.1406,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Oct 05: 97\u00b0 to 98\u00b0",
-   "p": 0.1982,
-   "ya": 0.16,
-   "na": 0.85,
-   "ey": 0.0288,
-   "en": -0.0571,
+   "p": 0.2017,
+   "ya": 0.17,
+   "na": 0.84,
+   "ey": 0.0218,
+   "en": -0.0511,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -2057,15 +2061,15 @@
   {
    "label": "Mon Oct 05: 103\u00b0 or above",
    "p": 0.01,
-   "ya": 0.01,
-   "na": 1.0,
-   "ey": -0.0007,
-   "en": -0.01,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": -0.0114,
+   "en": -0.0007,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-05T00:29:15Z"
+ "last_run": "2026-10-05T06:07:35Z"
 }
