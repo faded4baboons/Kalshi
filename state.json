@@ -2308,10 +2308,14 @@
   {
    "t": "2026-10-08T19:42:51Z",
    "v": 968.81
+  },
+  {
+   "t": "2026-10-09T00:10:25Z",
+   "v": 968.81
   }
  ],
  "news": {
-  "ran_at": "2026-10-08T19:42:50Z",
+  "ran_at": "2026-10-09T00:10:23Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -2320,44 +2324,44 @@
  "board": [
   {
    "label": "Fri Oct 09: 103\u00b0 to 104\u00b0",
-   "p": 0.0475,
-   "ya": 0.65,
+   "p": 0.0526,
+   "ya": 0.66,
    "na": 0.37,
-   "ey": -0.6184,
-   "en": 0.5661,
-   "held": false,
+   "ey": -0.6231,
+   "en": 0.5611,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Fri Oct 09: 98\u00b0 or below",
-   "p": 0.4096,
+   "p": 0.4078,
    "ya": 0.01,
    "na": 1.0,
-   "ey": 0.3989,
-   "en": -0.4096,
-   "held": false,
+   "ey": 0.3972,
+   "en": -0.4078,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Fri Oct 09: 99\u00b0 to 100\u00b0",
-   "p": 0.3444,
+   "p": 0.3354,
    "ya": 0.02,
    "na": 0.99,
-   "ey": 0.323,
-   "en": -0.3351,
-   "held": false,
+   "ey": 0.3141,
+   "en": -0.3261,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Fri Oct 09: 101\u00b0 to 102\u00b0",
-   "p": 0.1932,
-   "ya": 0.3,
+   "p": 0.1977,
+   "ya": 0.28,
    "na": 0.74,
-   "ey": -0.1215,
-   "en": 0.0533,
+   "ey": -0.0964,
+   "en": 0.0488,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -2365,10 +2369,10 @@
   {
    "label": "Fri Oct 09: 105\u00b0 to 106\u00b0",
    "p": 0.01,
-   "ya": 0.04,
-   "na": 0.97,
-   "ey": -0.0327,
-   "en": 0.018,
+   "ya": 0.06,
+   "na": 0.95,
+   "ey": -0.0539,
+   "en": 0.0367,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -2376,15 +2380,15 @@
   {
    "label": "Fri Oct 09: 107\u00b0 or above",
    "p": 0.01,
-   "ya": 0.01,
-   "na": 1.0,
-   "ey": -0.0007,
-   "en": -0.01,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": -0.0114,
+   "en": -0.0007,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-08T19:42:51Z"
+ "last_run": "2026-10-09T00:10:25Z"
 }
