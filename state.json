@@ -2392,10 +2392,14 @@
   {
    "t": "2026-10-09T19:37:45Z",
    "v": 966.5
+  },
+  {
+   "t": "2026-10-09T23:50:54Z",
+   "v": 966.5
   }
  ],
  "news": {
-  "ran_at": "2026-10-09T19:37:44Z",
+  "ran_at": "2026-10-09T23:50:52Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -2403,72 +2407,72 @@
  },
  "board": [
   {
-   "label": "Sat Oct 10: 95\u00b0 to 96\u00b0",
-   "p": 0.2005,
-   "ya": 0.1,
-   "na": 0.91,
-   "ey": 0.0942,
-   "en": -0.1162,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
    "label": "Sat Oct 10: 97\u00b0 or above",
-   "p": 0.1122,
-   "ya": 0.03,
+   "p": 0.1875,
+   "ya": 0.04,
    "na": 0.98,
-   "ey": 0.0802,
-   "en": -0.0936,
+   "ey": 0.1449,
+   "en": -0.1689,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 10: 91\u00b0 to 92\u00b0",
-   "p": 0.2378,
-   "ya": 0.33,
-   "na": 0.69,
-   "ey": -0.1077,
-   "en": 0.0573,
+   "p": 0.1803,
+   "ya": 0.31,
+   "na": 0.72,
+   "ey": -0.1447,
+   "en": 0.0856,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
+   "label": "Sat Oct 10: 95\u00b0 to 96\u00b0",
+   "p": 0.2481,
+   "ya": 0.17,
+   "na": 0.9,
+   "ey": 0.0682,
+   "en": -0.1544,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sat Oct 10: 93\u00b0 to 94\u00b0",
+   "p": 0.264,
+   "ya": 0.35,
+   "na": 0.66,
+   "ey": -0.1019,
+   "en": 0.0603,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
    "label": "Sat Oct 10: 89\u00b0 to 90\u00b0",
-   "p": 0.122,
-   "ya": 0.19,
-   "na": 0.84,
-   "ey": -0.0788,
-   "en": 0.0286,
+   "p": 0.0866,
+   "ya": 0.13,
+   "na": 0.88,
+   "ey": -0.0513,
+   "en": 0.026,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 10: 88\u00b0 or below",
-   "p": 0.048,
-   "ya": 0.07,
-   "na": 0.94,
-   "ey": -0.0265,
-   "en": 0.008,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Oct 10: 93\u00b0 to 94\u00b0",
-   "p": 0.2795,
-   "ya": 0.3,
-   "na": 0.71,
-   "ey": -0.0352,
-   "en": -0.004,
+   "p": 0.0335,
+   "ya": 0.06,
+   "na": 0.96,
+   "ey": -0.0305,
+   "en": 0.0038,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-09T19:37:45Z"
+ "last_run": "2026-10-09T23:50:54Z"
 }
