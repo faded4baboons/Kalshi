@@ -2813,10 +2813,14 @@
   {
    "t": "2026-10-13T22:35:37Z",
    "v": 966.34
+  },
+  {
+   "t": "2026-10-14T01:38:56Z",
+   "v": 966.34
   }
  ],
  "news": {
-  "ran_at": "2026-10-13T22:35:36Z",
+  "ran_at": "2026-10-14T01:38:54Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -2824,72 +2828,72 @@
  },
  "board": [
   {
-   "label": "Wed Oct 14: 79\u00b0 to 80\u00b0",
-   "p": 0.2035,
-   "ya": 0.48,
-   "na": 0.53,
-   "ey": -0.2939,
-   "en": 0.249,
+   "label": "Wed Oct 14: 77\u00b0 to 78\u00b0",
+   "p": 0.3061,
+   "ya": 0.57,
+   "na": 0.44,
+   "ey": -0.281,
+   "en": 0.2366,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Wed Oct 14: 75\u00b0 to 76\u00b0",
-   "p": 0.2534,
-   "ya": 0.04,
-   "na": 0.97,
-   "ey": 0.2108,
-   "en": -0.2255,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Wed Oct 14: 74\u00b0 or below",
-   "p": 0.159,
-   "ya": 0.01,
-   "na": 1.0,
-   "ey": 0.1483,
-   "en": -0.159,
+   "p": 0.2279,
+   "ya": 0.06,
+   "na": 0.96,
+   "ey": 0.164,
+   "en": -0.1906,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
-   "label": "Wed Oct 14: 77\u00b0 to 78\u00b0",
-   "p": 0.3062,
-   "ya": 0.43,
-   "na": 0.58,
-   "ey": -0.141,
-   "en": 0.0968,
+   "label": "Wed Oct 14: 74\u00b0 or below",
+   "p": 0.1321,
+   "ya": 0.01,
+   "na": 1.0,
+   "ey": 0.1214,
+   "en": -0.1321,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Wed Oct 14: 79\u00b0 to 80\u00b0",
+   "p": 0.2245,
+   "ya": 0.3,
+   "na": 0.71,
+   "ey": -0.0902,
+   "en": 0.0511,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Wed Oct 14: 81\u00b0 to 82\u00b0",
-   "p": 0.067,
-   "ya": 0.06,
-   "na": 0.95,
-   "ey": 0.0031,
-   "en": -0.0204,
+   "p": 0.0886,
+   "ya": 0.04,
+   "na": 0.97,
+   "ey": 0.0459,
+   "en": -0.0606,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Wed Oct 14: 83\u00b0 or above",
-   "p": 0.0108,
+   "p": 0.0208,
    "ya": 0.02,
-   "na": 0.99,
-   "ey": -0.0106,
-   "en": -0.0015,
+   "na": 1.0,
+   "ey": -0.0006,
+   "en": -0.0208,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-13T22:35:37Z"
+ "last_run": "2026-10-14T01:38:56Z"
 }
