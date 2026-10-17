@@ -3115,10 +3115,14 @@
   {
    "t": "2026-10-16T22:36:48Z",
    "v": 975.2
+  },
+  {
+   "t": "2026-10-17T01:07:30Z",
+   "v": 975.2
   }
  ],
  "news": {
-  "ran_at": "2026-10-16T19:38:20Z",
+  "ran_at": "2026-10-17T01:07:28Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -3127,71 +3131,71 @@
  "board": [
   {
    "label": "Sat Oct 17: 76\u00b0 or below",
-   "p": 0.1192,
-   "ya": 0.02,
-   "na": 0.99,
-   "ey": 0.0978,
-   "en": -0.1099,
+   "p": 0.0884,
+   "ya": 0.04,
+   "na": 0.97,
+   "ey": 0.0457,
+   "en": -0.0604,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 17: 81\u00b0 to 82\u00b0",
-   "p": 0.2357,
-   "ya": 0.35,
-   "na": 0.66,
-   "ey": -0.1302,
-   "en": 0.0886,
+   "p": 0.2558,
+   "ya": 0.31,
+   "na": 0.7,
+   "ey": -0.0692,
+   "en": 0.0295,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 17: 77\u00b0 to 78\u00b0",
-   "p": 0.22,
-   "ya": 0.14,
-   "na": 0.9,
-   "ey": 0.0716,
-   "en": -0.1263,
+   "p": 0.2084,
+   "ya": 0.17,
+   "na": 0.85,
+   "ey": 0.0285,
+   "en": -0.0673,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 17: 85\u00b0 or above",
-   "p": 0.0234,
-   "ya": 0.07,
-   "na": 0.94,
-   "ey": -0.0512,
-   "en": 0.0327,
-   "held": true,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Oct 17: 83\u00b0 to 84\u00b0",
-   "p": 0.0991,
-   "ya": 0.14,
-   "na": 0.87,
-   "ey": -0.0493,
-   "en": 0.023,
+   "p": 0.0228,
+   "ya": 0.06,
+   "na": 0.95,
+   "ey": -0.0412,
+   "en": 0.0239,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 17: 79\u00b0 to 80\u00b0",
-   "p": 0.3027,
-   "ya": 0.28,
-   "na": 0.73,
-   "ey": 0.0085,
-   "en": -0.0464,
+   "p": 0.3247,
+   "ya": 0.38,
+   "na": 0.64,
+   "ey": -0.0718,
+   "en": 0.0192,
    "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sat Oct 17: 83\u00b0 to 84\u00b0",
+   "p": 0.1001,
+   "ya": 0.13,
+   "na": 0.89,
+   "ey": -0.0378,
+   "en": 0.0031,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-16T22:36:48Z"
+ "last_run": "2026-10-17T01:07:30Z"
 }
