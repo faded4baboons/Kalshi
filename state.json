@@ -3224,10 +3224,14 @@
   {
    "t": "2026-10-17T19:03:44Z",
    "v": 991.28
+  },
+  {
+   "t": "2026-10-17T21:37:15Z",
+   "v": 991.28
   }
  ],
  "news": {
-  "ran_at": "2026-10-17T16:53:06Z",
+  "ran_at": "2026-10-17T21:37:13Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -3237,10 +3241,10 @@
   {
    "label": "Sun Oct 18: 78\u00b0 or below",
    "p": 0.2733,
-   "ya": 0.11,
-   "na": 0.9,
-   "ey": 0.1564,
-   "en": -0.1796,
+   "ya": 0.03,
+   "na": 0.98,
+   "ey": 0.2412,
+   "en": -0.2546,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -3248,10 +3252,10 @@
   {
    "label": "Sun Oct 18: 79\u00b0 to 80\u00b0",
    "p": 0.2444,
-   "ya": 0.11,
-   "na": 0.9,
-   "ey": 0.1275,
-   "en": -0.1507,
+   "ya": 0.09,
+   "na": 0.92,
+   "ey": 0.1486,
+   "en": -0.1695,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -3259,10 +3263,32 @@
   {
    "label": "Sun Oct 18: 83\u00b0 to 84\u00b0",
    "p": 0.1585,
-   "ya": 0.3,
-   "na": 0.71,
-   "ey": -0.1562,
-   "en": 0.1171,
+   "ya": 0.35,
+   "na": 0.68,
+   "ey": -0.2075,
+   "en": 0.1463,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sun Oct 18: 81\u00b0 to 82\u00b0",
+   "p": 0.2407,
+   "ya": 0.33,
+   "na": 0.7,
+   "ey": -0.1048,
+   "en": 0.0446,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Sun Oct 18: 87\u00b0 or above",
+   "p": 0.0175,
+   "ya": 0.06,
+   "na": 0.95,
+   "ey": -0.0465,
+   "en": 0.0292,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -3270,37 +3296,15 @@
   {
    "label": "Sun Oct 18: 85\u00b0 to 86\u00b0",
    "p": 0.0657,
-   "ya": 0.2,
-   "na": 0.84,
-   "ey": -0.1455,
-   "en": 0.0849,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sun Oct 18: 87\u00b0 or above",
-   "p": 0.0175,
-   "ya": 0.08,
-   "na": 0.93,
-   "ey": -0.0677,
-   "en": 0.048,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sun Oct 18: 81\u00b0 to 82\u00b0",
-   "p": 0.2407,
-   "ya": 0.31,
-   "na": 0.7,
-   "ey": -0.0843,
-   "en": 0.0446,
+   "ya": 0.17,
+   "na": 0.9,
+   "ey": -0.1142,
+   "en": 0.028,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-17T19:03:44Z"
+ "last_run": "2026-10-17T21:37:15Z"
 }
