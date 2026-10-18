@@ -104,6 +104,32 @@
    "bias": 0.0,
    "spread": 2.0,
    "opened_at": "2026-10-18T16:23:23Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT19-B86.5",
+   "label": "Mon Oct 19: 86\u00b0 to 87\u00b0",
+   "side": "NO",
+   "cost": 0.64,
+   "fee": 0.016128000000000003,
+   "qty": 10,
+   "model_p": 0.2523945352149624,
+   "edge": 0.09147746478503763,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-18T18:48:04Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT19-B84.5",
+   "label": "Mon Oct 19: 84\u00b0 to 85\u00b0",
+   "side": "YES",
+   "cost": 0.05,
+   "fee": 0.0033250000000000003,
+   "qty": 10,
+   "model_p": 0.2965207204145297,
+   "edge": 0.24319572041452972,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-18T18:48:04Z"
   }
  ],
  "closed": [
@@ -2235,6 +2261,20 @@
  ],
  "log": [
   {
+   "t": "2026-10-18T18:48:04Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 5\u00a2, Mon Oct 19: 84\u00b0 to 85\u00b0 (edge +24.3\u00a2)",
+   "amt": "-$0.50",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-10-18T18:48:04Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 NO at 64\u00a2, Mon Oct 19: 86\u00b0 to 87\u00b0 (edge +9.1\u00a2)",
+   "amt": "-$6.40",
+   "cls": "neg"
+  },
+  {
    "t": "2026-10-18T16:23:23Z",
    "agent": "Betting",
    "text": "Paper bought 10 NO at 60\u00a2, Mon Oct 19: 88\u00b0 to 89\u00b0 (edge +29.3\u00a2)",
@@ -2639,20 +2679,6 @@
    "text": "Paper bought 10 NO at 59\u00a2, Tue Oct 13: 79\u00b0 to 80\u00b0 (edge +15.4\u00a2)",
    "amt": "-$5.90",
    "cls": "neg"
-  },
-  {
-   "t": "2026-10-12T15:54:01Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 NO at 74\u00a2, Tue Oct 13: 81\u00b0 to 82\u00b0 (edge +14.2\u00a2)",
-   "amt": "-$7.40",
-   "cls": "neg"
-  },
-  {
-   "t": "2026-10-12T15:54:01Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 YES at 2\u00a2, Tue Oct 13: 74\u00b0 or below (edge +8.3\u00a2)",
-   "amt": "-$0.20",
-   "cls": "pos"
   }
  ],
  "equity": [
@@ -3307,6 +3333,10 @@
   {
    "t": "2026-10-18T16:23:23Z",
    "v": 996.77
+  },
+  {
+   "t": "2026-10-18T18:48:04Z",
+   "v": 996.77
   }
  ],
  "news": {
@@ -3318,72 +3348,72 @@
  },
  "board": [
   {
-   "label": "Mon Oct 19: 83\u00b0 or below",
-   "p": 0.3716,
-   "ya": 0.03,
-   "na": 0.99,
-   "ey": 0.3396,
-   "en": -0.3623,
-   "held": false,
+   "label": "Mon Oct 19: 88\u00b0 to 89\u00b0",
+   "p": 0.1116,
+   "ya": 0.49,
+   "na": 0.52,
+   "ey": -0.3959,
+   "en": 0.3509,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
-   "label": "Mon Oct 19: 88\u00b0 to 89\u00b0",
-   "p": 0.0902,
-   "ya": 0.41,
-   "na": 0.6,
-   "ey": -0.3367,
-   "en": 0.293,
-   "held": false,
+   "label": "Mon Oct 19: 83\u00b0 or below",
+   "p": 0.3122,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": 0.2909,
+   "en": -0.3029,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Oct 19: 84\u00b0 to 85\u00b0",
-   "p": 0.2952,
-   "ya": 0.07,
-   "na": 0.94,
-   "ey": 0.2207,
-   "en": -0.2392,
+   "p": 0.2965,
+   "ya": 0.05,
+   "na": 0.97,
+   "ey": 0.2432,
+   "en": -0.2686,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Oct 19: 86\u00b0 to 87\u00b0",
-   "p": 0.2233,
-   "ya": 0.39,
-   "na": 0.62,
-   "ey": -0.1834,
-   "en": 0.1402,
+   "p": 0.2524,
+   "ya": 0.37,
+   "na": 0.64,
+   "ey": -0.1339,
+   "en": 0.0915,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Oct 19: 90\u00b0 to 91\u00b0",
-   "p": 0.0179,
-   "ya": 0.12,
+   "p": 0.0245,
+   "ya": 0.13,
    "na": 0.89,
-   "ey": -0.1095,
-   "en": 0.0852,
-   "held": false,
+   "ey": -0.1134,
+   "en": 0.0786,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Oct 19: 92\u00b0 or above",
    "p": 0.01,
-   "ya": 0.03,
-   "na": 0.98,
-   "ey": -0.022,
-   "en": 0.0086,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": -0.0114,
+   "en": -0.0007,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-18T16:23:23Z"
+ "last_run": "2026-10-18T18:48:04Z"
 }
