@@ -1,71 +1,6 @@
 {
- "bank": 991.5401499999994,
+ "bank": 988.9887199999994,
  "open": [
-  {
-   "ticker": "KXHIGHTPHX-26OCT19-T84",
-   "label": "Mon Oct 19: 83\u00b0 or below",
-   "side": "YES",
-   "cost": 0.03,
-   "fee": 0.002037,
-   "qty": 10,
-   "model_p": 0.371638250949061,
-   "edge": 0.33960125094906096,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-10-18T16:23:23Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26OCT19-B90.5",
-   "label": "Mon Oct 19: 90\u00b0 to 91\u00b0",
-   "side": "NO",
-   "cost": 0.89,
-   "fee": 0.006853,
-   "qty": 10,
-   "model_p": 0.017934257397546807,
-   "edge": 0.08521274260245315,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-10-18T16:23:23Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26OCT19-B88.5",
-   "label": "Mon Oct 19: 88\u00b0 to 89\u00b0",
-   "side": "NO",
-   "cost": 0.6,
-   "fee": 0.016800000000000002,
-   "qty": 10,
-   "model_p": 0.09021394826897249,
-   "edge": 0.2929860517310276,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-10-18T16:23:23Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26OCT19-B86.5",
-   "label": "Mon Oct 19: 86\u00b0 to 87\u00b0",
-   "side": "NO",
-   "cost": 0.64,
-   "fee": 0.016128000000000003,
-   "qty": 10,
-   "model_p": 0.2523945352149624,
-   "edge": 0.09147746478503763,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-10-18T18:48:04Z"
-  },
-  {
-   "ticker": "KXHIGHTPHX-26OCT19-B84.5",
-   "label": "Mon Oct 19: 84\u00b0 to 85\u00b0",
-   "side": "YES",
-   "cost": 0.05,
-   "fee": 0.0033250000000000003,
-   "qty": 10,
-   "model_p": 0.2965207204145297,
-   "edge": 0.24319572041452972,
-   "bias": 0.0,
-   "spread": 2.0,
-   "opened_at": "2026-10-18T18:48:04Z"
-  },
   {
    "ticker": "KXHIGHTPHX-26OCT20-T88",
    "label": "Tue Oct 20: 87\u00b0 or below",
@@ -130,6 +65,45 @@
    "bias": 0.0,
    "spread": 2.0,
    "opened_at": "2026-10-19T21:21:48Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT21-T91",
+   "label": "Wed Oct 21: 92\u00b0 or above",
+   "side": "NO",
+   "cost": 0.79,
+   "fee": 0.011613,
+   "qty": 10,
+   "model_p": 0.08545157213178697,
+   "edge": 0.11293542786821296,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-20T15:45:07Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT21-B90.5",
+   "label": "Wed Oct 21: 90\u00b0 to 91\u00b0",
+   "side": "NO",
+   "cost": 0.73,
+   "fee": 0.013797000000000002,
+   "qty": 10,
+   "model_p": 0.1619940272427531,
+   "edge": 0.09420897275724688,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-20T15:45:07Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT21-B86.5",
+   "label": "Wed Oct 21: 86\u00b0 to 87\u00b0",
+   "side": "YES",
+   "cost": 0.11,
+   "fee": 0.0068530000000000015,
+   "qty": 10,
+   "model_p": 0.24848149524954494,
+   "edge": 0.13162849524954495,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-20T15:45:07Z"
   }
  ],
  "closed": [
@@ -2342,9 +2316,150 @@
    "pnl": -7.24413,
    "result": "yes",
    "closed_at": "2026-10-19T16:49:52Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT19-T84",
+   "label": "Mon Oct 19: 83\u00b0 or below",
+   "side": "YES",
+   "cost": 0.03,
+   "fee": 0.002037,
+   "qty": 10,
+   "model_p": 0.371638250949061,
+   "edge": 0.33960125094906096,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-18T16:23:23Z",
+   "won": false,
+   "pnl": -0.32036999999999993,
+   "result": "no",
+   "closed_at": "2026-10-20T15:45:06Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT19-B90.5",
+   "label": "Mon Oct 19: 90\u00b0 to 91\u00b0",
+   "side": "NO",
+   "cost": 0.89,
+   "fee": 0.006853,
+   "qty": 10,
+   "model_p": 0.017934257397546807,
+   "edge": 0.08521274260245315,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-18T16:23:23Z",
+   "won": false,
+   "pnl": -8.96853,
+   "result": "yes",
+   "closed_at": "2026-10-20T15:45:06Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT19-B88.5",
+   "label": "Mon Oct 19: 88\u00b0 to 89\u00b0",
+   "side": "NO",
+   "cost": 0.6,
+   "fee": 0.016800000000000002,
+   "qty": 10,
+   "model_p": 0.09021394826897249,
+   "edge": 0.2929860517310276,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-18T16:23:23Z",
+   "won": true,
+   "pnl": 3.8320000000000003,
+   "result": "no",
+   "closed_at": "2026-10-20T15:45:06Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT19-B86.5",
+   "label": "Mon Oct 19: 86\u00b0 to 87\u00b0",
+   "side": "NO",
+   "cost": 0.64,
+   "fee": 0.016128000000000003,
+   "qty": 10,
+   "model_p": 0.2523945352149624,
+   "edge": 0.09147746478503763,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-18T18:48:04Z",
+   "won": true,
+   "pnl": 3.4387199999999996,
+   "result": "no",
+   "closed_at": "2026-10-20T15:45:07Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT19-B84.5",
+   "label": "Mon Oct 19: 84\u00b0 to 85\u00b0",
+   "side": "YES",
+   "cost": 0.05,
+   "fee": 0.0033250000000000003,
+   "qty": 10,
+   "model_p": 0.2965207204145297,
+   "edge": 0.24319572041452972,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-18T18:48:04Z",
+   "won": false,
+   "pnl": -0.53325,
+   "result": "no",
+   "closed_at": "2026-10-20T15:45:07Z"
   }
  ],
  "log": [
+  {
+   "t": "2026-10-20T15:45:07Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 11\u00a2, Wed Oct 21: 86\u00b0 to 87\u00b0 (edge +13.2\u00a2)",
+   "amt": "-$1.10",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-10-20T15:45:07Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 NO at 73\u00a2, Wed Oct 21: 90\u00b0 to 91\u00b0 (edge +9.4\u00a2)",
+   "amt": "-$7.30",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-10-20T15:45:07Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 NO at 79\u00a2, Wed Oct 21: 92\u00b0 or above (edge +11.3\u00a2)",
+   "amt": "-$7.90",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-10-20T15:45:07Z",
+   "agent": "Betting",
+   "text": "Lost YES on Mon Oct 19: 84\u00b0 to 85\u00b0",
+   "amt": "-$0.53",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-10-20T15:45:07Z",
+   "agent": "Betting",
+   "text": "Won NO on Mon Oct 19: 86\u00b0 to 87\u00b0",
+   "amt": "+$3.44",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-10-20T15:45:06Z",
+   "agent": "Betting",
+   "text": "Won NO on Mon Oct 19: 88\u00b0 to 89\u00b0",
+   "amt": "+$3.83",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-10-20T15:45:06Z",
+   "agent": "Betting",
+   "text": "Lost NO on Mon Oct 19: 90\u00b0 to 91\u00b0",
+   "amt": "-$8.97",
+   "cls": "neg"
+  },
+  {
+   "t": "2026-10-20T15:45:06Z",
+   "agent": "Betting",
+   "text": "Lost YES on Mon Oct 19: 83\u00b0 or below",
+   "amt": "-$0.32",
+   "cls": "neg"
+  },
   {
    "t": "2026-10-19T21:21:48Z",
    "agent": "Betting",
@@ -2707,62 +2822,6 @@
    "agent": "Betting",
    "text": "Paper bought 10 NO at 60\u00a2, Thu Oct 15: 90\u00b0 to 91\u00b0 (edge +22.8\u00a2)",
    "amt": "-$6.00",
-   "cls": "neg"
-  },
-  {
-   "t": "2026-10-14T17:56:32Z",
-   "agent": "Betting",
-   "text": "Lost YES on Tue Oct 13: 75\u00b0 to 76\u00b0",
-   "amt": "-$0.32",
-   "cls": "neg"
-  },
-  {
-   "t": "2026-10-14T17:56:32Z",
-   "agent": "Betting",
-   "text": "Won YES on Tue Oct 13: 77\u00b0 to 78\u00b0",
-   "amt": "+$8.83",
-   "cls": "pos"
-  },
-  {
-   "t": "2026-10-14T17:56:31Z",
-   "agent": "Betting",
-   "text": "Won NO on Tue Oct 13: 79\u00b0 to 80\u00b0",
-   "amt": "+$3.93",
-   "cls": "pos"
-  },
-  {
-   "t": "2026-10-14T17:56:31Z",
-   "agent": "Betting",
-   "text": "Won NO on Tue Oct 13: 81\u00b0 to 82\u00b0",
-   "amt": "+$2.47",
-   "cls": "pos"
-  },
-  {
-   "t": "2026-10-14T17:56:31Z",
-   "agent": "Betting",
-   "text": "Lost YES on Tue Oct 13: 74\u00b0 or below",
-   "amt": "-$0.21",
-   "cls": "neg"
-  },
-  {
-   "t": "2026-10-13T22:35:37Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 YES at 4\u00a2, Wed Oct 14: 75\u00b0 to 76\u00b0 (edge +21.1\u00a2)",
-   "amt": "-$0.40",
-   "cls": "pos"
-  },
-  {
-   "t": "2026-10-13T17:58:59Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 NO at 54\u00a2, Wed Oct 14: 77\u00b0 to 78\u00b0 (edge +13.6\u00a2)",
-   "amt": "-$5.40",
-   "cls": "neg"
-  },
-  {
-   "t": "2026-10-13T17:58:59Z",
-   "agent": "Betting",
-   "text": "Paper bought 10 NO at 64\u00a2, Wed Oct 14: 79\u00b0 to 80\u00b0 (edge +14.0\u00a2)",
-   "amt": "-$6.40",
    "cls": "neg"
   }
  ],
@@ -3458,16 +3517,87 @@
   {
    "t": "2026-10-20T11:01:55Z",
    "v": 991.54
+  },
+  {
+   "t": "2026-10-20T15:45:07Z",
+   "v": 988.99
   }
  ],
  "news": {
-  "ran_at": "2026-10-20T11:01:54Z",
+  "ran_at": "2026-10-20T15:45:06Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
   "source": null
  },
- "board": [],
+ "board": [
+  {
+   "label": "Wed Oct 21: 84\u00b0 to 85\u00b0",
+   "p": 0.1688,
+   "ya": 0.03,
+   "na": 0.98,
+   "ey": 0.1367,
+   "en": -0.1502,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Wed Oct 21: 86\u00b0 to 87\u00b0",
+   "p": 0.2485,
+   "ya": 0.11,
+   "na": 0.91,
+   "ey": 0.1316,
+   "en": -0.1642,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Wed Oct 21: 92\u00b0 or above",
+   "p": 0.0855,
+   "ya": 0.24,
+   "na": 0.79,
+   "ey": -0.1673,
+   "en": 0.1129,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Wed Oct 21: 90\u00b0 to 91\u00b0",
+   "p": 0.162,
+   "ya": 0.3,
+   "na": 0.73,
+   "ey": -0.1527,
+   "en": 0.0942,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Wed Oct 21: 83\u00b0 or below",
+   "p": 0.0926,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": 0.0713,
+   "en": -0.0833,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Wed Oct 21: 88\u00b0 to 89\u00b0",
+   "p": 0.2427,
+   "ya": 0.35,
+   "na": 0.69,
+   "ey": -0.1233,
+   "en": 0.0524,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  }
+ ],
  "status": "Running normally",
- "last_run": "2026-10-20T11:01:55Z"
+ "last_run": "2026-10-20T15:45:07Z"
 }
