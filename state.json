@@ -3604,10 +3604,14 @@
   {
    "t": "2026-10-21T17:32:51Z",
    "v": 984.27
+  },
+  {
+   "t": "2026-10-21T21:20:43Z",
+   "v": 984.27
   }
  ],
  "news": {
-  "ran_at": "2026-10-21T17:32:50Z",
+  "ran_at": "2026-10-21T21:20:42Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -3615,72 +3619,72 @@
  },
  "board": [
   {
-   "label": "Thu Oct 22: 87\u00b0 or above",
-   "p": 0.164,
-   "ya": 0.25,
-   "na": 0.76,
-   "ey": -0.0991,
-   "en": 0.0632,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Thu Oct 22: 85\u00b0 to 86\u00b0",
-   "p": 0.2718,
-   "ya": 0.2,
-   "na": 0.82,
-   "ey": 0.0606,
-   "en": -0.1021,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Thu Oct 22: 83\u00b0 to 84\u00b0",
-   "p": 0.2899,
-   "ya": 0.32,
-   "na": 0.69,
-   "ey": -0.0453,
-   "en": 0.0051,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Thu Oct 22: 78\u00b0 or below",
-   "p": 0.0241,
-   "ya": 0.02,
-   "na": 0.99,
-   "ey": 0.0027,
-   "en": -0.0148,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
    "label": "Thu Oct 22: 79\u00b0 to 80\u00b0",
-   "p": 0.0731,
-   "ya": 0.08,
+   "p": 0.0187,
+   "ya": 0.07,
    "na": 0.94,
-   "ey": -0.0121,
-   "en": -0.017,
+   "ey": -0.0558,
+   "en": 0.0373,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Thu Oct 22: 87\u00b0 or above",
+   "p": 0.304,
+   "ya": 0.26,
+   "na": 0.75,
+   "ey": 0.0305,
+   "en": -0.0671,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Thu Oct 22: 81\u00b0 to 82\u00b0",
-   "p": 0.1772,
-   "ya": 0.21,
-   "na": 0.84,
-   "ey": -0.0445,
-   "en": -0.0266,
+   "p": 0.0921,
+   "ya": 0.11,
+   "na": 0.9,
+   "ey": -0.0248,
+   "en": 0.0016,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Thu Oct 22: 78\u00b0 or below",
+   "p": 0.01,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": -0.0114,
+   "en": -0.0007,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Thu Oct 22: 85\u00b0 to 86\u00b0",
+   "p": 0.3364,
+   "ya": 0.36,
+   "na": 0.65,
+   "ey": -0.0397,
+   "en": -0.0023,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Thu Oct 22: 83\u00b0 to 84\u00b0",
+   "p": 0.2466,
+   "ya": 0.26,
+   "na": 0.75,
+   "ey": -0.0269,
+   "en": -0.0097,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-21T17:32:51Z"
+ "last_run": "2026-10-21T21:20:43Z"
 }
