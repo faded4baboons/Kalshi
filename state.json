@@ -117,6 +117,32 @@
    "bias": 0.0,
    "spread": 2.0,
    "opened_at": "2026-10-23T16:50:16Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT24-B77.5",
+   "label": "Sat Oct 24: 77\u00b0 to 78\u00b0",
+   "side": "YES",
+   "cost": 0.09,
+   "fee": 0.005733,
+   "qty": 10,
+   "model_p": 0.3153808231716576,
+   "edge": 0.21964782317165762,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-23T20:13:46Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT24-B75.5",
+   "label": "Sat Oct 24: 75\u00b0 to 76\u00b0",
+   "side": "YES",
+   "cost": 0.03,
+   "fee": 0.002037,
+   "qty": 10,
+   "model_p": 0.2750045840361143,
+   "edge": 0.24296758403611426,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-10-23T20:13:46Z"
   }
  ],
  "closed": [
@@ -2622,6 +2648,20 @@
  ],
  "log": [
   {
+   "t": "2026-10-23T20:13:46Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 3\u00a2, Sat Oct 24: 75\u00b0 to 76\u00b0 (edge +24.3\u00a2)",
+   "amt": "-$0.30",
+   "cls": "pos"
+  },
+  {
+   "t": "2026-10-23T20:13:46Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 9\u00a2, Sat Oct 24: 77\u00b0 to 78\u00b0 (edge +22.0\u00a2)",
+   "amt": "-$0.90",
+   "cls": "pos"
+  },
+  {
    "t": "2026-10-23T16:50:16Z",
    "agent": "Betting",
    "text": "Paper bought 10 NO at 59\u00a2, Sat Oct 24: 79\u00b0 to 80\u00b0 (edge +21.7\u00a2)",
@@ -3026,20 +3066,6 @@
    "text": "Paper bought 10 YES at 12\u00a2, Sun Oct 18: 78\u00b0 or below (edge +25.4\u00a2)",
    "amt": "-$1.20",
    "cls": "pos"
-  },
-  {
-   "t": "2026-10-17T16:53:07Z",
-   "agent": "Betting",
-   "text": "Won YES on Fri Oct 16: 86\u00b0 to 87\u00b0",
-   "amt": "+$8.73",
-   "cls": "pos"
-  },
-  {
-   "t": "2026-10-17T16:53:07Z",
-   "agent": "Betting",
-   "text": "Lost YES on Fri Oct 16: 84\u00b0 to 85\u00b0",
-   "amt": "-$0.21",
-   "cls": "neg"
   }
  ],
  "equity": [
@@ -3806,10 +3832,14 @@
   {
    "t": "2026-10-23T16:50:16Z",
    "v": 983.11
+  },
+  {
+   "t": "2026-10-23T20:13:46Z",
+   "v": 983.11
   }
  ],
  "news": {
-  "ran_at": "2026-10-23T16:50:15Z",
+  "ran_at": "2026-10-23T20:13:44Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -3817,72 +3847,72 @@
  },
  "board": [
   {
-   "label": "Sat Oct 24: 81\u00b0 to 82\u00b0",
-   "p": 0.0478,
-   "ya": 0.38,
-   "na": 0.64,
-   "ey": -0.3487,
-   "en": 0.2961,
-   "held": false,
+   "label": "Sat Oct 24: 79\u00b0 to 80\u00b0",
+   "p": 0.1861,
+   "ya": 0.54,
+   "na": 0.5,
+   "ey": -0.3713,
+   "en": 0.2964,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 24: 75\u00b0 to 76\u00b0",
-   "p": 0.2886,
-   "ya": 0.06,
-   "na": 0.95,
-   "ey": 0.2247,
-   "en": -0.2419,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Sat Oct 24: 79\u00b0 to 80\u00b0",
-   "p": 0.1757,
-   "ya": 0.42,
-   "na": 0.59,
-   "ey": -0.2614,
-   "en": 0.2174,
+   "p": 0.275,
+   "ya": 0.03,
+   "na": 0.99,
+   "ey": 0.243,
+   "en": -0.2657,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 24: 77\u00b0 to 78\u00b0",
-   "p": 0.3182,
-   "ya": 0.13,
-   "na": 0.88,
-   "ey": 0.1803,
-   "en": -0.2056,
+   "p": 0.3154,
+   "ya": 0.09,
+   "na": 0.92,
+   "ey": 0.2196,
+   "en": -0.2405,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
+   "label": "Sat Oct 24: 81\u00b0 to 82\u00b0",
+   "p": 0.0562,
+   "ya": 0.29,
+   "na": 0.75,
+   "ey": -0.2482,
+   "en": 0.1806,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
    "label": "Sat Oct 24: 74\u00b0 or below",
-   "p": 0.1632,
+   "p": 0.1581,
    "ya": 0.01,
    "na": 1.0,
-   "ey": 0.1525,
-   "en": -0.1632,
-   "held": false,
+   "ey": 0.1474,
+   "en": -0.1581,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 24: 83\u00b0 or above",
    "p": 0.01,
-   "ya": 0.07,
-   "na": 0.95,
-   "ey": -0.0646,
-   "en": 0.0367,
+   "ya": 0.08,
+   "na": 0.94,
+   "ey": -0.0752,
+   "en": 0.0461,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-23T16:50:16Z"
+ "last_run": "2026-10-23T20:13:46Z"
 }
