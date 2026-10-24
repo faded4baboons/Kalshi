@@ -3844,10 +3844,14 @@
   {
    "t": "2026-10-24T01:49:48Z",
    "v": 983.11
+  },
+  {
+   "t": "2026-10-24T06:56:03Z",
+   "v": 983.11
   }
  ],
  "news": {
-  "ran_at": "2026-10-23T23:20:36Z",
+  "ran_at": "2026-10-24T06:56:02Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -3856,55 +3860,55 @@
  "board": [
   {
    "label": "Sat Oct 24: 79\u00b0 to 80\u00b0",
-   "p": 0.2015,
+   "p": 0.1683,
    "ya": 0.57,
    "na": 0.44,
-   "ey": -0.3856,
-   "en": 0.3412,
+   "ey": -0.4189,
+   "en": 0.3745,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 24: 75\u00b0 to 76\u00b0",
-   "p": 0.2633,
+   "p": 0.2953,
    "ya": 0.02,
    "na": 0.99,
-   "ey": 0.242,
-   "en": -0.254,
+   "ey": 0.274,
+   "en": -0.286,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 24: 81\u00b0 to 82\u00b0",
-   "p": 0.0621,
-   "ya": 0.3,
-   "na": 0.72,
-   "ey": -0.2526,
-   "en": 0.2038,
+   "p": 0.0389,
+   "ya": 0.32,
+   "na": 0.71,
+   "ey": -0.2964,
+   "en": 0.2367,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 24: 77\u00b0 to 78\u00b0",
-   "p": 0.3198,
-   "ya": 0.13,
-   "na": 0.89,
-   "ey": 0.1819,
-   "en": -0.2166,
+   "p": 0.3255,
+   "ya": 0.09,
+   "na": 0.92,
+   "ey": 0.2298,
+   "en": -0.2506,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Sat Oct 24: 74\u00b0 or below",
-   "p": 0.1439,
+   "p": 0.168,
    "ya": 0.01,
    "na": 1.0,
-   "ey": 0.1332,
-   "en": -0.1439,
+   "ey": 0.1573,
+   "en": -0.168,
    "held": true,
    "bias": 0.0,
    "spread": 2.0
@@ -3912,15 +3916,15 @@
   {
    "label": "Sat Oct 24: 83\u00b0 or above",
    "p": 0.01,
-   "ya": 0.06,
-   "na": 0.95,
-   "ey": -0.0539,
-   "en": 0.0367,
+   "ya": 0.04,
+   "na": 0.97,
+   "ey": -0.0327,
+   "en": 0.018,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-24T01:49:48Z"
+ "last_run": "2026-10-24T06:56:03Z"
 }
