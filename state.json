@@ -4036,10 +4036,14 @@
   {
    "t": "2026-10-25T19:53:43Z",
    "v": 997.81
+  },
+  {
+   "t": "2026-10-25T22:20:44Z",
+   "v": 997.81
   }
  ],
  "news": {
-  "ran_at": "2026-10-25T17:27:08Z",
+  "ran_at": "2026-10-25T22:20:43Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -4060,9 +4064,9 @@
   {
    "label": "Mon Oct 26: 85\u00b0 to 86\u00b0",
    "p": 0.0459,
-   "ya": 0.69,
+   "ya": 0.71,
    "na": 0.34,
-   "ey": -0.6591,
+   "ey": -0.6785,
    "en": 0.5984,
    "held": true,
    "bias": 0.0,
@@ -4114,5 +4118,5 @@
   }
  ],
  "status": "Running normally",
- "last_run": "2026-10-25T19:53:43Z"
+ "last_run": "2026-10-25T22:20:44Z"
 }
