@@ -91,6 +91,19 @@
    "bias": 0.0,
    "spread": 2.0,
    "opened_at": "2026-11-01T15:50:42Z"
+  },
+  {
+   "ticker": "KXHIGHTPHX-26NOV02-B70.5",
+   "label": "Mon Nov 02: 70\u00b0 to 71\u00b0",
+   "side": "YES",
+   "cost": 0.09,
+   "fee": 0.005733,
+   "qty": 10,
+   "model_p": 0.25571486921317976,
+   "edge": 0.15998186921317978,
+   "bias": 0.0,
+   "spread": 2.0,
+   "opened_at": "2026-11-01T20:16:22Z"
   }
  ],
  "closed": [
@@ -3259,6 +3272,13 @@
  ],
  "log": [
   {
+   "t": "2026-11-01T20:16:22Z",
+   "agent": "Betting",
+   "text": "Paper bought 10 YES at 9\u00a2, Mon Nov 02: 70\u00b0 to 71\u00b0 (edge +16.0\u00a2)",
+   "amt": "-$0.90",
+   "cls": "pos"
+  },
+  {
    "t": "2026-11-01T15:50:42Z",
    "agent": "Betting",
    "text": "Paper bought 10 NO at 54\u00a2, Mon Nov 02: 72\u00b0 to 73\u00b0 (edge +15.9\u00a2)",
@@ -3670,13 +3690,6 @@
    "text": "Lost YES on Sat Oct 24: 75\u00b0 to 76\u00b0",
    "amt": "-$0.32",
    "cls": "neg"
-  },
-  {
-   "t": "2026-10-25T17:27:08Z",
-   "agent": "Betting",
-   "text": "Won YES on Sat Oct 24: 77\u00b0 to 78\u00b0",
-   "amt": "+$9.04",
-   "cls": "pos"
   }
  ],
  "equity": [
@@ -4627,10 +4640,14 @@
   {
    "t": "2026-11-01T15:50:42Z",
    "v": 1028.68
+  },
+  {
+   "t": "2026-11-01T20:16:22Z",
+   "v": 1028.68
   }
  ],
  "news": {
-  "ran_at": "2026-11-01T15:50:40Z",
+  "ran_at": "2026-11-01T20:16:21Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -4638,56 +4655,56 @@
  },
  "board": [
   {
-   "label": "Mon Nov 02: 69\u00b0 or below",
-   "p": 0.2509,
-   "ya": 0.02,
-   "na": 0.99,
-   "ey": 0.2295,
-   "en": -0.2416,
+   "label": "Mon Nov 02: 70\u00b0 to 71\u00b0",
+   "p": 0.2557,
+   "ya": 0.09,
+   "na": 0.93,
+   "ey": 0.16,
+   "en": -0.1903,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Nov 02: 74\u00b0 to 75\u00b0",
-   "p": 0.1234,
-   "ya": 0.35,
-   "na": 0.66,
-   "ey": -0.2426,
-   "en": 0.2009,
-   "held": false,
+   "p": 0.2116,
+   "ya": 0.38,
+   "na": 0.64,
+   "ey": -0.1848,
+   "en": 0.1322,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Mon Nov 02: 69\u00b0 or below",
+   "p": 0.1306,
+   "ya": 0.02,
+   "na": 0.99,
+   "ey": 0.1092,
+   "en": -0.1213,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Nov 02: 72\u00b0 to 73\u00b0",
-   "p": 0.2837,
-   "ya": 0.47,
-   "na": 0.54,
-   "ey": -0.2037,
-   "en": 0.1589,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Mon Nov 02: 70\u00b0 to 71\u00b0",
-   "p": 0.3155,
-   "ya": 0.16,
-   "na": 0.86,
-   "ey": 0.1461,
-   "en": -0.184,
-   "held": false,
+   "p": 0.3308,
+   "ya": 0.5,
+   "na": 0.57,
+   "ey": -0.1867,
+   "en": 0.082,
+   "held": true,
    "bias": 0.0,
    "spread": 2.0
   },
   {
    "label": "Mon Nov 02: 76\u00b0 to 77\u00b0",
-   "p": 0.0243,
-   "ya": 0.08,
-   "na": 0.95,
-   "ey": -0.0608,
-   "en": 0.0224,
+   "p": 0.0626,
+   "ya": 0.05,
+   "na": 0.96,
+   "ey": 0.0092,
+   "en": -0.0253,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -4696,14 +4713,14 @@
    "label": "Mon Nov 02: 78\u00b0 or above",
    "p": 0.01,
    "ya": 0.02,
-   "na": 1.0,
+   "na": 0.99,
    "ey": -0.0114,
-   "en": -0.01,
+   "en": -0.0007,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-11-01T15:50:42Z"
+ "last_run": "2026-11-01T20:16:22Z"
 }
