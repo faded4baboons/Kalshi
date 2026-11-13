@@ -5475,10 +5475,14 @@
   {
    "t": "2026-11-12T19:37:51Z",
    "v": 1022.66
+  },
+  {
+   "t": "2026-11-13T00:55:11Z",
+   "v": 1022.66
   }
  ],
  "news": {
-  "ran_at": "2026-11-12T19:37:49Z",
+  "ran_at": "2026-11-13T00:55:10Z",
   "summary": "News agent is off: add the ANTHROPIC_API_KEY secret to turn it on.",
   "days": {},
   "pause_trading": false,
@@ -5486,45 +5490,12 @@
  },
  "board": [
   {
-   "label": "Fri Nov 13: 76\u00b0 or below",
-   "p": 0.436,
-   "ya": 0.72,
-   "na": 0.3,
-   "ey": -0.2982,
-   "en": 0.2493,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Fri Nov 13: 79\u00b0 to 80\u00b0",
-   "p": 0.1885,
-   "ya": 0.09,
-   "na": 0.92,
-   "ey": 0.0928,
-   "en": -0.1137,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
-   "label": "Fri Nov 13: 77\u00b0 to 78\u00b0",
-   "p": 0.3093,
-   "ya": 0.23,
-   "na": 0.8,
-   "ey": 0.0669,
-   "en": -0.1205,
-   "held": false,
-   "bias": 0.0,
-   "spread": 2.0
-  },
-  {
    "label": "Fri Nov 13: 81\u00b0 to 82\u00b0",
-   "p": 0.0572,
-   "ya": 0.02,
-   "na": 0.99,
-   "ey": 0.0358,
-   "en": -0.0479,
+   "p": 0.0168,
+   "ya": 0.03,
+   "na": 0.98,
+   "ey": -0.0152,
+   "en": 0.0018,
    "held": false,
    "bias": 0.0,
    "spread": 2.0
@@ -5550,8 +5521,41 @@
    "held": false,
    "bias": 0.0,
    "spread": 2.0
+  },
+  {
+   "label": "Fri Nov 13: 79\u00b0 to 80\u00b0",
+   "p": 0.0946,
+   "ya": 0.13,
+   "na": 0.91,
+   "ey": -0.0433,
+   "en": -0.0103,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Nov 13: 77\u00b0 to 78\u00b0",
+   "p": 0.2414,
+   "ya": 0.24,
+   "na": 0.79,
+   "ey": -0.0114,
+   "en": -0.043,
+   "held": false,
+   "bias": 0.0,
+   "spread": 2.0
+  },
+  {
+   "label": "Fri Nov 13: 76\u00b0 or below",
+   "p": 0.6459,
+   "ya": 0.65,
+   "na": 0.38,
+   "ey": -0.02,
+   "en": -0.0424,
+   "held": true,
+   "bias": 0.0,
+   "spread": 2.0
   }
  ],
  "status": "Running normally",
- "last_run": "2026-11-12T19:37:51Z"
+ "last_run": "2026-11-13T00:55:11Z"
 }
